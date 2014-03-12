@@ -13,6 +13,11 @@
   src: url(../fonts/Signika/Signika-Semibold.ttf);
 }
 
+body {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
 .slide1{
   background:#087BBB;
   height:780px;
@@ -128,7 +133,7 @@ line-height: 38px;
 }
 
 .slide3{
-  border-bottom:1px solid #979797;
+  border-bottom:1px solid #DADADA;
   padding: 30px 0 80px 0;
 }
 
@@ -137,13 +142,14 @@ line-height: 38px;
 }
 
 .sweetwords{
-
+  margin-top:30px;
 }
 
 .sweetwords .avatar{
   width:50px;
   height:50px;
-  border:1px solid #979797;
+  border:0px solid #979797;
+  background:#ebebeb;
   border-radius:50px;
   overflow:hidden;
   float:left;
@@ -158,23 +164,23 @@ line-height: 38px;
 
 .sweetwords .details .name{
 font-family: HelveticaNeue-Medium;
-font-size: 16px;
+font-size: 19px;
 color: #000000;
-line-height: 19px;
+line-height: 26px;
 }
 
 .sweetwords .details .designation{
 font-family: HelveticaNeue-Medium;
 font-size: 12px;
-color: #000000;
+color: #ACACAC;
 line-height: 15px;
 }
 
 .sweetwords .details p{
 font-family: Helvetica;
-font-size: 12px;
+font-size: 14px;
 color: #000000;
-line-height: 14px;
+line-height: 19px;
 opacity: .64;
 margin: 10px 0px 30px 0px;
 }
@@ -233,18 +239,17 @@ margin:10px 0px;
 }
 
 .ops-profile .designation{
-font-family: HelveticaNeue-Light;
+font-family: HelveticaNeue-Medium;
 font-size: 13px;
 color: #FFFFFF;
 line-height: 16px;
 }
 
 .ops-profile .twitter{
-font-family: HelveticaNeue-Light;
+font-family: HelveticaNeue;
 font-size: 13px;
 color: #FFFFFF;
 line-height: 16px;
-opacity: .63;
 margin:10px 0;
 -webkit-transition: opacity .1s;
 -moz-transition:opacity .1s;
@@ -257,7 +262,7 @@ transition:opacity .1s;
 }
 
 .ops-profile .twitter:hover{
-  opacity:.9;
+  font-weight: bold;
   -webkit-transition: opacity .1s;
   -moz-transition:opacity .1s;
   -o-transition:opacity .1s;

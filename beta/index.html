@@ -7,6 +7,8 @@
   <link rel="stylesheet" href="./css/foundation.css" />
   <link rel="stylesheet" href="./css/style.css"/>
   <script src="js/modernizr.js"></script>
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
 </head>
 <body>
 
@@ -82,7 +84,7 @@
           <div class="avatar"></div>
           <div class="details">
             <div class="name">John Doe</div>
-            <div class="designation">Former President</div>
+            <div class="designation">FORMER PRESIDENT</div>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, aspernatur, consectetur cupiditate laboriosam et itaque necessitatibus illum deserunt enim quia atque laudantium consequatur temporibus! Odit quibusdam suscipit id non enim?
             </p>
@@ -95,7 +97,7 @@
           <div class="avatar"></div>
           <div class="details">
             <div class="name">John Doe</div>
-            <div class="designation">Former President</div>
+            <div class="designation">FORMER PRESIDENT</div>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, aspernatur, consectetur cupiditate laboriosam et itaque necessitatibus illum deserunt enim quia atque laudantium consequatur temporibus! Odit quibusdam suscipit id non enim?
             </p>
@@ -108,7 +110,7 @@
           <div class="avatar"></div>
           <div class="details">
             <div class="name">John Doe</div>
-            <div class="designation">Former President</div>
+            <div class="designation">FORMER PRESIDENT</div>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, aspernatur, consectetur cupiditate laboriosam et itaque necessitatibus illum deserunt enim quia atque laudantium consequatur temporibus! Odit quibusdam suscipit id non enim?
             </p>
@@ -121,7 +123,7 @@
           <div class="avatar"></div>
           <div class="details">
             <div class="name">John Doe</div>
-            <div class="designation">Former President</div>
+            <div class="designation">FORMER PRESIDENT</div>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, aspernatur, consectetur cupiditate laboriosam et itaque necessitatibus illum deserunt enim quia atque laudantium consequatur temporibus! Odit quibusdam suscipit id non enim?
             </p>
@@ -142,7 +144,7 @@
           <h3 class="dark">Supported by</h3>
           
           <div class="sponsor-logos">
-            <a href="#" title="Male' City Council" target="_blank"><img src="./img/logos/mcc.png"/></a>
+            <a href="http://www.malecity.gov.mv" title="Male' City Council" target="_blank"><img src="./img/logos/mcc.png"/></a>
 
             <a href="http://ncit.gov.mv" title="National Centre for Information Technology" target="_blank"><img src="./img/logos/ncit.png"/></a>
           </div>
@@ -309,6 +311,15 @@ kind of not so useless.
     $(document).foundation();
 
     $(function() {
+
+      //get window height, set it to slide1
+      var winheight = $(window).height();
+      if(winheight > 550){
+        $(".slide1").height(winheight - 10);
+      } else {
+        $(".slide1").height(660);
+      }
+
       $('a[href*=#]:not([href=#])').click(function() {
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
           var target = $(this.hash);
