@@ -1,0 +1,163 @@
+body{
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+h2{
+  font-weight:400;
+  color:#4a4a4a;
+  text-align:center;
+  font-size:17pt;
+  margin:35px 0;
+  font-family: 'Signika', sans-serif;
+}
+
+h1{
+  font-family: 'Signika', sans-serif;
+  text-align:center;
+  position:relative;
+  font-size:30pt;
+  color:#1679B3;
+  text-transform: uppercase;
+  text-shadow: 0px 3px 1px #fff;
+}
+
+.header-holder{
+  position:relative;
+  background:#1679B3;
+  left:0px;
+  width:100%;
+  text-align:center;
+  height:530px;
+}
+
+.header{
+  height:458px;
+  margin-top:30px;
+}
+
+.header .logo{
+  float:left;
+  margin-top:20px;
+}
+
+.navigation{
+  list-style:none;
+  /*width:80%;*/
+  margin:20px 0 0 0;
+  padding:0px;
+  float:right;
+  position:absolute;
+  right:0px;
+}
+
+.navigation li{
+  float:left;
+  margin-left:30px;
+}
+
+.navigation li a{
+  color:#fff;
+  /*font-family: 'Open Sans', sans-serif;*/
+  font-weight:300;
+  font-size:20pt;
+}
+
+.header #intro{
+  font-weight:300;
+  font-size:18pt;
+  color:#fff;
+}
+
+.intro-holder:before{
+  content: '';
+  clear:both;
+  float:none;
+  display:block;
+  width:100%;
+}
+
+.intro-holder{
+  margin:0px auto;
+  float:none;
+  text-align:center;
+  position:relative;
+  top:100px;
+}
+
+.centered{
+  margin:0px auto;
+  float:none;
+}
+
+.arrow{
+  width: 40px; 
+  height: 40px; 
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-top: 40px solid #1679B3;
+  position:relative;
+  display:inline-block;
+  top:40px;
+  /*margin-left:-50%;*/
+}
+
+.video-holder{
+  max-width:372px;
+  max-height:195px;
+  margin: 0px auto;
+}
+
+.content-holder:nth-child(odd){
+  background:#E1E1E1;
+}
+
+.content-holder:nth-child(odd) h1{
+    top: -29px;
+}
+
+.content-holder:nth-child(even) h1{
+  margin-top:100px;
+  margin-bottom:-30px;
+}
+
+.content-holder.last{
+  background:#4A4A4A;
+}
+
+.content-holder p{
+  margin: 100px auto 100px auto;
+  font-size:16pt;
+  font-weight:300;
+  color:#565656;
+}
+
+.content-holder.last h1{
+  top:-50px;
+  margin-bottom:-50px;
+}
+
+.content-holder.last p{
+  color:#fff;
+  text-align:center;
+  margin: 50px auto 50px auto;
+}
+
+.big-ass-button{
+  margin-top:40px;
+  display:inline-block;
+  width:380px;
+  height:67px;
+  font-size:19pt;
+  line-height:60px;
+  text-align:center;
+  background: url(../img/big-ass-button-bg.png);
+  color:#fff;
+  text-shadow: 0 0 0px transparent;
+  -webkit-transition: .1s text-shadow;
+}
+
+.big-ass-button:hover{
+  color:#fff;
+  text-shadow: 0 2px 3px #333;
+  -webkit-transition: .1s text-shadow;
+}
