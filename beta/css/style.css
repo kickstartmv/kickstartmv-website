@@ -44,7 +44,8 @@ ul.navigation li a{
 }
 
 ul.navigation li.active a, ul.navigation li a:hover{
-  color:#FBE442;
+  color:#ebebeb;
+  font-weight: bold;
   -webkit-transition: color .1s ease-out;
   -moz-transition: color .1s ease-out;
   -o-transition: color .1s ease-out;
@@ -215,10 +216,12 @@ padding:0px;
 .slide6{
   background:#E6002F;
   padding:50px 0px 80px 0;
+  min-height:550px;
 }
 
 .ops-profile{
   text-align: center;
+  margin-top:30px;
 }
 
 .ops-profile .avatar{
@@ -271,7 +274,7 @@ transition:opacity .1s;
 
 .slide7{
   background:#2F2F2F;
-  padding:80px 0px;
+  padding:10px 0px;
 }
 
 .social-links a{
@@ -288,9 +291,9 @@ transition:opacity .1s;
 
 .copyright{
 font-family: Signika-Regular;
-font-size: 13px;
+font-size: 17px;
 color: #FFFFFF;
-line-height: 17px;
+line-height: 30px;
 }
 
 .pursue p{
