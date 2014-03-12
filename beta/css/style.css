@@ -290,9 +290,11 @@ line-height: 17px;
 
 .pursue p{
 font-family: HelveticaNeue-Light;
-font-size: 15px;
+font-size: 18px;
 color: #F6F6F6;
-line-height: 20px;
+line-height: 27px;
 margin:30px 0px;
 width:80%;
+height: 80px;
+opacity: 0.8;
 }
