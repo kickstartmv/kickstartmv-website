@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KickStart</title>
+    <link rel="stylesheet" href="./css/foundation.css" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Signika' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="./css/kickstart.css"/>
+    <script src="js/modernizr.js"></script>
+</head>
+<body>
+  <div class="header-holder">
+    <div class="row">
+      <div class="large-12 columns header">
+        <div class="logo"><a href="/"><img src="./img/kickstart-logo-web.png"/></a></div>
+        <ul class="navigation clearfix">
+        <li><a href="#who">Who</a></li>
+        <li><a href="#howmuch">How Much</a></li>
+        <li><a href="#rules">Rules</a></li>
+        <li><a href="#win">Win</a></li>
+        <li><a href="#join">Join</a></li>
+        </ul>
+      
+        <div class="row">
+          <div class="large-10 columns intro-holder">
+            <p id="intro">
+              Kickstart is a collaborative initiative by a group of passionate individuals from the local technology community aiming to create a series of hackathons across the islands of Maldives where developers and designers can come together and work on amazing projects and build amazing startups.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="arrow">
+    </div>
+  </div>
+  
+  <div class="content-holder">
+  <div class="row" style="margin-top:35px;">
+    <div class="large-12 column">
+      <h2>WTF is a Hackathon</h2>
+
+      <div class="video-holder">
+        <iframe width="372" height="195" src="//www.youtube.com/embed/rU_dISBVxWA" frameborder="0" allowfullscreen></iframe>
+      </div>
+
+      <div class="row">
+        <div class="large-10 column centered">
+          <p>
+            A hackathon is a gathering where programmers collaboratively code in an extreme manner over a short period of time. Hackathons are at least a few days - or over a weekend - and generally no longer than a week. While working on a particular project, the idea is for each developer to be have the ability and freedom to work on whatever he/she wants. A hackathon is also known as a hackfest or hack day.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+  <div class="content-holder">
+  <div class="row">
+    <div class="large-12 column">
+      <h1 id="who">Who should join</h1>
+
+      <div class="row">
+        <div class="large-10 column centered">
+          <p>
+            If you are anyone of these people then you should join this 24-hour tech marathon.<br />
+            - Are you a mobile App developer?<br />
+            - Do you know any web programming languages? Heck, do you know any programming language (even assembly)?<br />
+            - Are you confident with html 5 and css 3 and javascript<br />
+            - Are you someone who has lots of epic ideas but don’t have any   developer to build it with?<br />
+            - Are you looking for a technical co-founder for your startup?<br/>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="content-holder">
+  <div class="row">
+    <div class="large-12 column">
+      <h1 id="howmuch">How much</h1>
+
+      <div class="row">
+        <div class="large-10 column centered">
+          <p>
+            Nothing. Trust us it’s not going to cost you anything. All you’ve to do is bring your laptop and your awesome idea. We will provide you free drinks and snacks. We’re working on providing lunch and dinner (depending on the sponsor).
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="content-holder">
+  <div class="row">
+    <div class="large-12 column">
+      <h1 id="rules">What are the rules</h1>
+
+      <div class="row">
+        <div class="large-10 column centered">
+          <p>
+            The only rule is you can start coding only once the Hackathon starts. You can prepare and do wireframes and all other stuff before the event. But the coding should be done in the event. You will have to demo your product at the end of Hackathon. Presentation slides cannot be used. :)
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="content-holder">
+    <div class="row">
+    <div class="large-12 column">
+      <h1 id="win">What will i win</h1>
+
+      <div class="row">
+        <div class="large-10 column centered">
+          <p>
+            The winner will get a horn of a unicorn. Jokes aside, we're working on getting representatives from big companies across Maldives and people with money for the Demo session. Also we're working with our sponsor to give away some cash prizes. But seriously how cool will a unicorn horn be.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="content-holder last">
+  <div class="row">
+    <div class="large-12 column">
+      <h1 id="join">How to Join</h1>
+
+      <div class="row">
+        <div class="large-10 column centered">
+          <p>
+            Just enroll yourself at our <b>hackathon.io</b> event! And keep following <b>@kickstartmv</b> or <b>fb.me/kickstartmv</b>
+            <br />
+            <a href="http://www.hackathon.io/events/1982" target="_blank" class="big-ass-button">take me to hackathon.io</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <script src="js/jquery.js"></script>
+  <script src="js/foundation.min.js"></script>
+  <script>
+    $(document).foundation();
+
+    $(function() {
+      $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html,body').animate({
+              scrollTop: target.offset().top
+            }, 1000);
+            return false;
+          }
+        }
+      });
+    });
+  </script>
+</body>
+</html>
