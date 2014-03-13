@@ -210,6 +210,12 @@ margin: 10px 0px 30px 0px;
   margin:0px 10px;
 }
 
+
+.slide21{
+  padding: 40px 0 80px 0;
+  background: #F5A623;
+}
+
 .slide4{
   padding-top:40px;
   padding-bottom:80px;
@@ -298,6 +304,10 @@ transition:opacity .1s;
   padding:10px 0px;
 }
 
+.black {
+  color: black;
+}
+
 .footerlogo {
   text-align: center;
   padding-top:50px;
@@ -336,4 +346,27 @@ margin:30px 0px;
 width:80%;
 height: 80px;
 opacity: 0.8;
+}
+
+.tipsblock .subheading {
+  margin-bottom: 10px;
+  display: block;
+  font-weight: bold;
+  font-size: 10pt;
+}
+
+.tipsblock ol {
+  padding:0px;margin: 0px;
+  font-size: 10pt;
+  line-height: 21px;
+  margin-bottom: 20px;
+}
+
+.tipsblock ol ul {
+  list-style-type: decimal;
+}
+.tipsblock ol ul li {
+  margin-left:20px;
+  margin-top:10px;
+  font-size: 10pt;
 }
