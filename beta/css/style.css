@@ -45,6 +45,10 @@ body {
   position:relative;
 }
 
+.slide1 .big-ass-text{
+   margin-top:100px;
+}
+
 ul.navigation{
   /*background:#4FA3BA;*/
   list-style:none;
@@ -127,9 +131,11 @@ a.enroll-today-white:hover{
 .arrow-white{
   position:absolute;
   bottom:20px;
-  left:48.5%;
-  width:45px;
-  height:28px;
+  width:100%;
+  text-align: center;
+  /*left:48.5%;*/
+  /*width:45px;*/
+  /*height:28px;*/
 }
 
 .slide2{
@@ -379,20 +385,70 @@ opacity: 0.8;
     h1 {
       margin:0px;
       font-size:40pt;
-      line-height: 30px
+      line-height: 60px
     }
 
     h2 {
       font-size: 14pt;
-      line-height: 60px;
+      line-height: 30px;
+    }
+
+    h3{
+      font-size:30px;
+      line-height:40px;
+    }
+
+    .slide1 .big-ass-text{
+      margin-top:30px;
     }
 
     .slide1 p.venue {
-      line-height: 0px;
+      line-height: 30px;
       font-size:18pt;
       margin-bottom:100px;
     }
 
+    a.enroll-today-white:first-child{
+      font-size:20px;
+      /*position:relative;*/
+      /*top:-80px;*/
+    }
 
+    a.enroll-today-white:last-child{
+      font-size:20px;
+
+    }
+
+    .pursue p{
+      height:auto;
+    }
+  
+
+    .slide7 .footerlogo{
+      padding-bottom:60px;
+    }
+
+    .social-links{
+      text-align:center;
+    }
+
+    .copyright{
+      text-align:center;
+      margin-top:20px;
+    }
+
+    .logo{
+      text-align:center;
+    }
+
+    .navigation{
+    
+    }
+
+    .navigation li{
+      display:block;
+      width:100%;
+      text-align:center;
+    }
 
 }
