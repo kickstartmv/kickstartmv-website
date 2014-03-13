@@ -153,6 +153,7 @@ font-family: HelveticaNeue-Thin;
 font-size: 39px;
 color: #FFFFFF;
 line-height: 100px;
+font-weight:bold;
 }
 
 h4{
@@ -160,6 +161,7 @@ font-family: HelveticaNeue-Thin;
 font-size: 31px;
 color: #FFFFFF;
 line-height: 38px;
+font-weight:bold;
 }
 
 .slide3{
