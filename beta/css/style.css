@@ -57,7 +57,6 @@ ul.navigation{
 
 ul.navigation li{
   display:inline-block;
-  padding:4px 15px;
   font-family:Arial;
   font-size:10pt;
   text-transform: uppercase;
@@ -65,15 +64,16 @@ ul.navigation li{
 
 ul.navigation li a{
   color:#fff;
+  padding:4px 15px;
 }
 
 ul.navigation li.active a, ul.navigation li a:hover{
   color:#ebebeb;
-  font-weight: bold;
-  -webkit-transition: color .1s ease-out;
-  -moz-transition: color .1s ease-out;
-  -o-transition: color .1s ease-out;
-  transition: color .1s ease-out;
+  background:rgba(255,255,255,.3);
+  -webkit-transition: all .1s ease-out;
+  -moz-transition: all .1s ease-out;
+  -o-transition: all .1s ease-out;
+  transition: all .1s ease-out;
 }
 
 h1{
@@ -144,7 +144,7 @@ a.enroll-today-white:hover{
 }
 
 .slide2{
-  padding: 40px 0 80px 0;
+  padding: 80px 0 80px 0;
   background: #006A8E;
 }
 
@@ -225,12 +225,12 @@ margin: 10px 0px 30px 0px;
 
 
 .slide21{
-  padding: 40px 0 80px 0;
+  padding: 80px 0 80px 0;
   background: #F5A623;
 }
 
 .slide4{
-  padding-top:40px;
+  padding-top:80px;
   padding-bottom:80px;
 }
 
@@ -449,6 +449,22 @@ color: #FFFFFF;
 line-height: 15px;
 text-transform: uppercase;
 opacity: .51;
+}
+
+#navbar{
+  -webkit-transition: all .2s;
+}
+
+.stick{
+  position:fixed;
+  top:0px;
+  margin:0px auto;
+  background:#087BBB;
+  width:100%;
+  z-index:200;
+  padding: 10px 0;
+  height:60px;
+  -webkit-transition: all .2s;
 }
 
 
