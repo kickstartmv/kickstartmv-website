@@ -31,7 +31,7 @@
         <li><a href="#whyparticipate">Why Participate?</a></li>
         <li><a href="#tips">TIPS</a></li>
         <li><a href="#supporters">Supporters</a></li>
-        <li><a href="#team">Team</a></li>
+        <li><a href="#team">Organisers</a></li>
         <li><a href="#followus">Follow Us</a></li>
       </ul>
     </div>
@@ -188,36 +188,6 @@
   </div>
 </section>
 
-
-<section id="supporters" class="slide4">
-  <div class="row">
-
-      <div style="width:80%;margin:0px auto;">
-        <div class="column large-7">
-          <h3 class="dark">Supported by</h3>
-          
-          <div class="sponsor-logos">
-            <a href="http://www.malecity.gov.mv" title="Male' City Council" target="_blank"><img src="img/logos/mcc.png"/></a>
-
-            <a href="http://ncit.gov.mv" title="National Centre for Information Technology" target="_blank"><img src="img/logos/ncit.png"/></a>
-          </div>
-
-        </div>
-
-        <div class="column large-5">
-          <h3 class="dark">Partners</h3>
-            
-          <div class="sponsor-logos">
-            <a href="http://www.allied.mv" title="Allied Insurance" target="_blank"><img src="img/logos/allied.jpeg"/></a>
-            
-            <a href="http://www.haveeru.com.mv" title="Haveeru Online" target="_blank"><img src="img/logos/haveeru-logo-web.png"/></a>
-          </div>
-
-        </div>
-      </div>
-  </div> 
-</section>
-
 <section id="prices" class="slide5">
   <div class="row">
 
@@ -266,7 +236,7 @@ kind of not so useless.
 <section id="team" class="slide6">
   <div style="width:90% !important;margin:0px auto;" class="clearfix">
   
-    <h3 class="centered">Who we are</h3>
+    <h3 class="centered">Organizing Team</h3>
 
     <div class="column large-2">
       <div class="ops-profile">
@@ -343,6 +313,35 @@ kind of not so useless.
   </div>
 </section>
 
+<section id="supporters" class="slide4">
+  <div class="row">
+
+      <div style="width:80%;margin:0px auto;">
+        <div class="column large-7">
+          <h3 class="dark">Supported by</h3>
+          
+          <div class="sponsor-logos">
+            <a href="http://www.malecity.gov.mv" title="Male' City Council" target="_blank"><img src="img/logos/mcc.png"/></a>
+
+            <a href="http://ncit.gov.mv" title="National Centre for Information Technology" target="_blank"><img src="img/logos/ncit.png"/></a>
+          </div>
+
+        </div>
+
+        <div class="column large-5">
+          <h3 class="dark">Partners</h3>
+            
+          <div class="sponsor-logos">
+            <a href="http://www.allied.mv" title="Allied Insurance" target="_blank"><img src="img/logos/allied.jpeg"/></a>
+
+            <a href="http://www.haveeru.com.mv" title="Haveeru Online" target="_blank"><img src="img/logos/haveeru-logo-web.png"/></a>
+          </div>
+
+        </div>
+      </div>
+  </div> 
+</section>
+
 <section id="followus" class="slide7">
     <div class="row">
         <div class="column large-12 footerlogo">
@@ -375,8 +374,10 @@ kind of not so useless.
       var winheight = $(window).height();
       if(winheight > 550){
         $(".slide1").height(winheight - 10);
+        $('.slide7').height(winheight);
       } else {
         $(".slide1").height(730);
+        $('.slide7').height(730);
       }
 
       $('a[href*=#]:not([href=#])').click(function() {
