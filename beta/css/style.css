@@ -104,11 +104,10 @@ h2{
 
 
 a.enroll-today-white{
-border-radius: 8px;
-border: 1px solid #FFFFFF;
--moz-box-shadow:    0px 2px 4px 0px rgba(255,254,255,0.15);
--webkit-box-shadow: 0px 2px 4px 0px rgba(255,254,255,0.15);
-box-shadow:         0px 2px 4px 0px rgba(255,254,255,0.15);
+/*border-radius: 8px;*/
+background:rgb(221, 29, 21);
+/*border: 1px solid #FFFFFF;*/
+
 font-family: Signika-Light;
 font-size: 25px;
 color: #FFFFFF;
@@ -119,10 +118,10 @@ padding:10px 30px;
 
 a.enroll-today-white:hover{
   background:rgba(255,255,255,.3);
-  -webkit-transition: background .1s linear;
-  -moz-transition:background .1s linear;
-  -o-transition:background .1s linear;
-  transition:background .1s linear;
+  -webkit-transition: background 1s linear;
+  -moz-transition:background 1s linear;
+  -o-transition:background 1s linear;
+  transition:background 1s linear;
 }
 
 .arrow-white{
@@ -369,4 +368,30 @@ opacity: 0.8;
   margin-left:20px;
   margin-top:10px;
   font-size: 10pt;
+}
+
+
+
+/*FOR MOBILES*/
+@media (max-width: 767px) {
+    
+    h1 {
+      margin:0px;
+      font-size:40pt;
+      line-height: 30px
+    }
+
+    h2 {
+      font-size: 14pt;
+      line-height: 60px;
+    }
+
+    .slide1 p.venue {
+      line-height: 0px;
+      font-size:18pt;
+      margin-bottom:100px;
+    }
+
+
+
 }
