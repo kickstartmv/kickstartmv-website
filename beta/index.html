@@ -496,7 +496,7 @@ kind of not so useless.
 
       $(window).scroll(function(){
 
-        if(!$.browser.mobile){
+        if(!Modernizr.touch){
 
           var scrollTop = $(window).scrollTop();
           var slide1Height = $('.slide1').height();
