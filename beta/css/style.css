@@ -312,7 +312,9 @@ transition:opacity .1s;
 
 .slide7{
   background:#2F2F2F;
-  padding:10px 0px;
+  /*padding:220px 0px;*/
+  box-sizing:border-box;
+  /*-moz-box-sizing:border-box;*/
 }
 
 .black {
@@ -320,6 +322,7 @@ transition:opacity .1s;
 }
 
 .footerlogo {
+  margin-top:100px;
   text-align: center;
   padding-top:50px;
   padding-bottom:100px;
