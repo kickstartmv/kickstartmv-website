@@ -128,6 +128,11 @@ a.enroll-today-white:hover{
   transition:background 1s linear;
 }
 
+.enroll-button1{
+  position:relative;
+  top:100px;
+}
+
 .arrow-white{
   position:absolute;
   bottom:20px;
@@ -399,7 +404,7 @@ opacity: 0.8;
     }
 
     .slide1 .big-ass-text{
-      margin-top:30px;
+      margin-top:70px;
     }
 
     .slide1 p.venue {
@@ -410,8 +415,10 @@ opacity: 0.8;
 
     a.enroll-today-white:first-child{
       font-size:20px;
-      /*position:relative;*/
-      /*top:-80px;*/
+    }
+
+    .enroll-button1{
+      top:0px;
     }
 
     a.enroll-today-white:last-child{
@@ -442,7 +449,7 @@ opacity: 0.8;
     }
 
     .navigation{
-    
+      padding-top:30px;
     }
 
     .navigation li{
