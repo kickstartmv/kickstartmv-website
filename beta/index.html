@@ -495,14 +495,18 @@ kind of not so useless.
 
 
       $(window).scroll(function(){
-        var scrollTop = $(window).scrollTop();
-        var slide1Height = $('.slide1').height();
-        if(scrollTop > slide1Height){
-          $('#navbar').addClass('stick');
-        }
-        else{
-          if($('#navbar').hasClass('stick')){
-            $("#navbar").removeClass('stick');
+
+        if(!$.browser.mobile){
+
+          var scrollTop = $(window).scrollTop();
+          var slide1Height = $('.slide1').height();
+          if(scrollTop > slide1Height){
+            $('#navbar').addClass('stick');
+          }
+          else{
+            if($('#navbar').hasClass('stick')){
+              $("#navbar").removeClass('stick');
+            }
           }
         }
         
