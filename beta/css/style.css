@@ -105,7 +105,6 @@ h2{
 
 a.enroll-today-white{
 border-radius: 8px;
-background: #097BBB;
 border: 1px solid #FFFFFF;
 -moz-box-shadow:    0px 2px 4px 0px rgba(255,254,255,0.15);
 -webkit-box-shadow: 0px 2px 4px 0px rgba(255,254,255,0.15);
@@ -115,7 +114,7 @@ font-size: 25px;
 color: #FFFFFF;
 line-height: 32px;
 padding:10px 30px;
-text-transform: uppercase;
+/*text-transform: uppercase;*/
 }
 
 a.enroll-today-white:hover{
@@ -164,6 +163,7 @@ line-height: 38px;
 
 .sweetwords{
   margin-top:30px;
+  min-height: 180px;
 }
 
 .sweetwords .avatar{
@@ -184,21 +184,21 @@ line-height: 38px;
 }
 
 .sweetwords .details .name{
-font-family: HelveticaNeue-Medium;
+/*font-family: HelveticaNeue-Medium;*/
 font-size: 19px;
 color: #000000;
 line-height: 26px;
 }
 
 .sweetwords .details .designation{
-font-family: HelveticaNeue-Medium;
+/*font-family: HelveticaNeue-Medium;*/
 font-size: 12px;
 color: #ACACAC;
 line-height: 15px;
 }
 
 .sweetwords .details p{
-font-family: Helvetica;
+/*font-family: Helvetica;*/
 font-size: 14px;
 color: #000000;
 line-height: 19px;
@@ -221,7 +221,7 @@ margin: 10px 0px 30px 0px;
 }
 
 .slide5 p{
-font-family: HelveticaNeue-Light;
+/*font-family: HelveticaNeue-Light;*/
 font-size: 14px;
 color: #FFFFFF;
 line-height: 17px;
@@ -245,8 +245,9 @@ padding:0px;
 }
 
 .ops-profile .avatar{
-  width:128px;
-  height:128px;
+  width:100px;
+  height:100px;
+  background-size: cover;
   background:#fff;
   border-radius:128px;
   border:0px solid #979797;
@@ -254,15 +255,15 @@ padding:0px;
 }
 
 .ops-profile .name{
-font-family: HelveticaNeue-Light;
+/*font-family: HelveticaNeue-Light;*/
 font-size: 21px;
 color: #FFFFFF;
 line-height: 25px;
-margin:10px 0px;
+margin:2px 0px;
 }
 
 .ops-profile .designation{
-font-family: HelveticaNeue-Medium;
+/*font-family: HelveticaNeue-Medium;*/
 font-size: 13px;
 color: #FFFFFF;
 line-height: 16px;
@@ -297,6 +298,16 @@ transition:opacity .1s;
   padding:10px 0px;
 }
 
+.footerlogo {
+  text-align: center;
+  padding-top:50px;
+  padding-bottom:100px;
+}
+
+.footerlogo img {
+  margin-bottom: 50px;
+}
+
 .social-links a{
   margin: 0 5px;
 }
@@ -317,7 +328,7 @@ line-height: 30px;
 }
 
 .pursue p{
-font-family: HelveticaNeue-Light;
+/*font-family: HelveticaNeue-Light;*/
 font-size: 18px;
 color: #F6F6F6;
 line-height: 27px;
