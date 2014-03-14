@@ -495,12 +495,17 @@ kind of not so useless.
 
       //get window height, set it to slide1
       var winheight = $(window).height();
-      if(winheight > 550){
-        $(".slide1").height(winheight - 10);
-        $('.slide7').height(winheight);
-      } else {
-        $(".slide1").height(730);
-        $('.slide7').height(730);
+      if(!Modernizr.touch){
+        if(winheight > 550){
+          $(".slide1").height(winheight - 10);
+          $('.slide7').height(winheight);
+        } else {
+          $(".slide1").height(730);
+          $('.slide7').height(730);
+        }
+      }
+      else{
+        $(".slide1").height(810);
       }
 
 
