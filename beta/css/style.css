@@ -109,7 +109,7 @@ h2{
 
 
 a.enroll-today-white{
-/*border-radius: 8px;*/
+border-radius: 8px;
 background:rgb(221, 29, 21);
 /*border: 1px solid #FFFFFF;*/
 
@@ -122,16 +122,42 @@ padding:10px 30px;
 }
 
 a.enroll-today-white:hover{
-  background:rgba(255,255,255,.3);
-  -webkit-transition: background 1s linear;
-  -moz-transition:background 1s linear;
-  -o-transition:background 1s linear;
-  transition:background 1s linear;
+  /*background:rgba(255,255,255,.5);*/
+  background:#d40000;
+  -webkit-transition: background .2s linear;
+  -moz-transition:background .2s linear;
+  -o-transition:background .2s linear;
+  transition:background .2s linear;
 }
 
 .enroll-button1{
   position:relative;
   top:100px;
+}
+
+a.back-to-top{
+border-radius: 8px;
+background: #2F2F2F;
+border: 1px solid rgba(255,254,255,0.22);
+font-family: Signika-Light;
+font-size: 25px;
+color: #FFFFFF;
+line-height: 32px;
+padding:10px 30px;
+display: inline-block;
+margin-top:30px;
+-webkit-transition: all .2s linear;
+  -moz-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear;
+}
+
+a.back-to-top:hover{
+  opacity: .8;
+  -webkit-transition: all .2s linear;
+  -moz-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear;
 }
 
 .arrow-white{
@@ -314,7 +340,8 @@ transition:opacity .1s;
 }
 
 .slide7{
-  background:#2F2F2F;
+  /*background:#2F2F2F;*/
+  background:#eee;
   /*padding:220px 0px;*/
   box-sizing:border-box;
   /*-moz-box-sizing:border-box;*/
@@ -350,7 +377,8 @@ transition:opacity .1s;
 .copyright{
 font-family: Signika-Regular;
 font-size: 17px;
-color: #FFFFFF;
+/*color: #FFFFFF;*/
+color:#2f2f2f;
 line-height: 30px;
 }
 
@@ -507,7 +535,7 @@ opacity: .51;
       top:0px;
     }
 
-    a.enroll-today-white:last-child{
+    a.back-top-top{
       font-size:20px;
 
     }
