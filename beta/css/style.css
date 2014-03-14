@@ -53,6 +53,7 @@ ul.navigation{
   /*background:#4FA3BA;*/
   list-style:none;
   margin-top:5px;
+  float:left;
 }
 
 ul.navigation li{
@@ -64,7 +65,7 @@ ul.navigation li{
 
 ul.navigation li a{
   color:#fff;
-  padding:4px 15px;
+  padding:4px 12px;
 }
 
 ul.navigation li.active a, ul.navigation li a:hover{
@@ -324,7 +325,7 @@ transition:opacity .1s;
 }
 
 .footerlogo {
-  margin-top:100px;
+  margin-top:150px;
   text-align: center;
   padding-top:50px;
   padding-bottom:100px;
