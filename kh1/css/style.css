@@ -34,8 +34,17 @@
 }
 
 body {
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+p {
+  color: #F6F6F6;
+  opacity: 0.8;
+}
+
+.slide {
+  padding: 80px 0;
 }
 
 .slide1{
