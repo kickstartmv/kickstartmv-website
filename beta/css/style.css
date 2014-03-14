@@ -39,7 +39,7 @@ body {
 }
 
 .slide1{
-  background-image: url(../img/kickstart_bg_image.jpg);
+  background-image: url(../img/site_bg.jpg);
   background-position:center center;
   background-repeat: no-repeat;
   background-size:cover;
@@ -287,6 +287,7 @@ padding:0px;
   background:#E6002F;
   padding:50px 0px 80px 0;
   min-height:550px;
+  display:none;
 }
 
 .ops-profile{
@@ -345,7 +346,7 @@ transition:opacity .1s;
 
 .slide7{
   /*background:#2F2F2F;*/
-  background:#eee;
+  /*background:#eee;*/
   /*padding:220px 0px;*/
   box-sizing:border-box;
   /*-moz-box-sizing:border-box;*/
@@ -484,6 +485,11 @@ text-transform: uppercase;
 opacity: .51;
 }
 
+.footer-btn{
+  display:inline-block;
+  margin-top:40px;
+}
+
 #navbar{
   -webkit-transition: all .2s;
 }
@@ -554,7 +560,9 @@ opacity: .51;
     }
 
     .social-links{
-      text-align:center;
+      display:block !important;
+      float:none !important;
+      text-align: center;
     }
 
     .copyright{
@@ -580,4 +588,25 @@ opacity: .51;
       margin-top: 0px;
     }
 
+    .header-div{
+      text-align: center;
+    }
+
+
+    .timeline{
+      margin:30px 0px
+    }
+
+    .day-str{
+      margin-top:40px;
+    }
+
+    .sponsor-logos{
+      text-align: center;
+      margin:40px 0px;
+    }
+
+    .sponsor-logos a{
+      margin: 20px 20px;
+    }
 }
