@@ -241,6 +241,7 @@ a.enroll-today-white:hover {
 .copyright, .contact {
   /*font-family: HelveticaNeue-Light;*/
   color:#fff;
+  opacity: .8;
 }
 
 .contact a, .copyright a{
