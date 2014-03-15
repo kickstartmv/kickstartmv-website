@@ -23,7 +23,7 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-p {
+p, li {
   color: #F6F6F6;
   opacity: 0.8;
 }
@@ -83,6 +83,9 @@ h5 {
 }
 
 .text-black h1, .text-black h2, .text-black h3, .text-black h4 {
+  color: #111;
+}
+.text-black li {
   color: #111;
 }
 .text-black p {
