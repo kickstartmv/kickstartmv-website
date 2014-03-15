@@ -1,19 +1,4 @@
 @font-face{
-  font-family: Signika-Regular;
-  src: url(../fonts/Signika/Signika-Regular.ttf);
-}
-
-@font-face{
-  font-family: Signika-Light;
-  src: url(../fonts/Signika/Signika-Light.ttf);
-}
-
-@font-face{
-  font-family: Signika-Bold;
-  src: url(../fonts/Signika/Signika-Semibold.ttf);
-}
-
-@font-face{
   font-family: HelveticaNeue;
   src: url(../fonts/HelveticaNeue/HelveticaNeue.ttf);
 }
@@ -80,6 +65,9 @@ h5 {
 .big-ass-text {
    margin-top: 80px;
 }
+.big-ass-text h2 {
+  text-shadow: 0px 0px 17px rgba(150, 150, 150, 1);
+}
 .big-ass-text h3 {
   font-family: HelveticaNeue-Thin, sans-serif;
   font-weight: normal;
@@ -102,7 +90,7 @@ h5 {
 }
 
 .venue {
-  font-family: Signika-Light;
+  font-family: HelveticaNeue-Thin, sans-serif;
   font-size: 27px;
   color: #fff;
   line-height: 33px;
@@ -118,45 +106,38 @@ h5 {
   position: relative;
 }
 
-ul.navigation{
-  /*background:#4FA3BA;*/
-  list-style:none;
-  margin-top:5px;
-  float:left;
+ul.navigation {
+  list-style: none;
+  margin-top: 5px;
+  float: left;
 }
-
-ul.navigation li{
-  display:inline-block;
-  font-family:Arial;
-  font-size:10pt;
+ul.navigation li {
+  display: inline-block;
+  font-family: Arial;
+  font-size: 10pt;
   text-transform: uppercase;
 }
-
-ul.navigation li a{
-  color:#fff;
-  padding:4px 12px;
+ul.navigation li a {
+  color: #fff;
+  padding: 4px 12px;
 }
-
-ul.navigation li.active a, ul.navigation li a:hover{
+ul.navigation li.active a, ul.navigation li a:hover {
   color:#ebebeb;
   background:rgba(255,255,255,.3);
-  -webkit-transition: all .1s ease-out;
-  -moz-transition: all .1s ease-out;
-  -o-transition: all .1s ease-out;
-  transition: all .1s ease-out;
+  -webkit-transition: all .5s ease-out;
+  -moz-transition: all .5s ease-out;
+  -o-transition: all .5s ease-out;
+  transition: all .5s ease-out;
 }
 
 a.enroll-today-white{
-border-radius: 8px;
-background:rgb(221, 29, 21);
-/*border: 1px solid #FFFFFF;*/
-
-font-family: Signika-Light;
-font-size: 25px;
-color: #FFFFFF;
-line-height: 32px;
-padding:10px 30px;
-/*text-transform: uppercase;*/
+  border-radius: 8px;
+  background:rgb(221, 29, 21);
+  font-family: Arial, sans-serif;
+  font-size: 25px;
+  color: #FFFFFF;
+  line-height: 32px;
+  padding:15px 30px;
 }
 
 a.enroll-today-white:hover{
@@ -282,9 +263,7 @@ margin: 10px 0px 30px 0px;
   width: 100px;
   height: 100px;
   background-size: cover;
-  background: #fff;
   border-radius: 128px;
-  border: 1px solid #ccc;
   margin: 20px auto;
 }
 .ops-profile-name {
