@@ -1,2 +1,2 @@
 RewriteEngine On
-RewriterRule ^$ kh1 [L]
+RewriteRule ^$ kh1 [L]
