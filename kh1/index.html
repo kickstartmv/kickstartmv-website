@@ -172,7 +172,7 @@
 
 <section id="schedule" class="slide" style="background:#351E49;">
   <div class="row">
-    <div class="columns medium-4">
+    <div class="columns medium-4 header-div">
       <h3>Timeline</h3>
       <h4></h4>
     </div>
@@ -302,7 +302,7 @@
     </div>
     <div class="columns medium-6">
       <div class="text-left">
-        <a href="http://www.hackathon.io/kickstart" target="_blank" class="enroll-today-white">RSVP via Hackathon.io</a>
+        <a href="http://www.hackathon.io/kickstart" target="_blank" class="enroll-today-white footer-btn">RSVP via Hackathon.io</a>
       </div>
     </div>
   </div>
@@ -328,7 +328,7 @@
       //get window height, set it to slide-header
       var winheight = $(window).height();
       if(!Modernizr.touch){
-        if(winheight > 550){
+        if($(window).width() > 550){
           $("#header").height(winheight - 100);
         } else {
           $("#header").height(730);
