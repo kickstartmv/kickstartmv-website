@@ -238,9 +238,13 @@ a.enroll-today-white:hover {
   transition:opacity .1s;
 }
 
-.copyright {
-  font-family: HelveticaNeue-Light;
-  color:#2f2f2f;
+.copyright, .contact {
+  /*font-family: HelveticaNeue-Light;*/
+  color:#fff;
+}
+
+.contact a, .copyright a{
+  color:#fff;
 }
 
 .day-str {
@@ -313,6 +317,12 @@ opacity: .51;
   -webkit-transition: all .2s;
 }
 
+
+#footer{
+  padding:20px 0px;
+  background:#000;
+  border-top:2px solid #2f2f2f;
+}
 
 
 /*FOR MOBILES*/
