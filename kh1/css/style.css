@@ -141,10 +141,7 @@ a.enroll-today-white {
   -moz-box-shadow: 0px 0px 30px rgba(150, 150, 150, 0.4);
   -webkit-box-shadow: 0px 0px 30px rgba(150, 150, 150, 0.4);
   box-shadow: 0px 0px 30px rgba(150, 150, 150, 0.4);
-  position: relative;
-  top: 100px;
 }
-
 a.enroll-today-white:hover {
   /*background:rgba(255,255,255,.5);*/
   background:#d40000;
@@ -152,6 +149,10 @@ a.enroll-today-white:hover {
   -moz-transition:background .2s linear;
   -o-transition:background .2s linear;
   transition:background .2s linear;
+}
+#header .enroll-today-white {
+  position: relative;
+  top: 100px;
 }
 
 .arrow-white {
