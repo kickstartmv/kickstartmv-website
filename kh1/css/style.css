@@ -65,12 +65,12 @@ h5 {
 .big-ass-text {
    margin-top: 80px;
 }
-.big-ass-text h2 {
-  text-shadow: 0px 0px 17px rgba(150, 150, 150, 1);
-}
 .big-ass-text h3 {
   font-family: HelveticaNeue-Thin, sans-serif;
   font-weight: normal;
+}
+.big-ass-text h4 {
+  margin-bottom: 25px;
 }
 .box {
   padding-top: 15px;
@@ -138,6 +138,9 @@ a.enroll-today-white{
   color: #FFFFFF;
   line-height: 32px;
   padding:15px 30px;
+  -moz-box-shadow: 0px 0px 30px rgba(150, 150, 150, 0.4);
+  -webkit-box-shadow: 0px 0px 30px rgba(150, 150, 150, 0.4);
+  box-shadow: 0px 0px 30px rgba(150, 150, 150, 0.4);
 }
 
 a.enroll-today-white:hover{
