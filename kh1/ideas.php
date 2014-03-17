@@ -30,7 +30,7 @@
 </head>
 <body>
 
-<section id="header" class="slide slide-header">
+<section id="header" class="slide slide-header dark">
   <div id="navbar">
     <div class="row">
 
