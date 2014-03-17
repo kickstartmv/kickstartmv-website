@@ -38,7 +38,7 @@ class WordPress {
         }
     }
     
-    public function publish_post($title, $content, array $tags, array $categories, $status = 'Pending Review', $date = Null, $post_thumbnail = Null) {
+    public function publish_post($title, $content, array $tags, array $categories, array $profile, $status = 'Pending Review', $date = Null, $post_thumbnail = Null) {
         // Set datetime for post
         if ($date == Null) {
             $post_date = date("Ymd\TH:i:s", time());
@@ -57,6 +57,8 @@ class WordPress {
                 'post_status' => $status,
                 'post_title' => $title,
                 'post_content' => $content,
+                'wpcf-name' => $profile['name'],
+                'wpcf-email' => $profile['email'],
                 'post_date' => $post_date,
                 'terms_names' => array('category' => $categories, 'post_tag' => $tags),
                 'post_thumbnail' => $post_thumbnail,

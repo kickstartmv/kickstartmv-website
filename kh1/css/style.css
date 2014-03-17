@@ -332,36 +332,49 @@ opacity: .51;
 h2.narrow{
   font-weight:100;
   font-family: HelveticaNeue-Thin;
-  color:#eb6502;
+  color:#2f2f2f;
 }
 
 .idea-card{
-  background:#fff;
-  padding:10px;
-  border-radius:8px;
-  drop-shadow: 0 0 2px #000;
-  posiiton:relative;
-  overflow:hidden;
+  background: #FFFFFF;
+  border: 1px solid #DBDBDB;
+  margin-bottom:25px;
 }
 
 .idea-card h6{
-  font-size:13pt;
-  text-transform: uppercase;
+
+  font-family: Helvetica;
+  font-size: 17px;
+  color: #4A4A4A;
+  line-height: 39px;
   font-weight:400;
-  color:#393838;
 }
 
 .idea-card p{
-  color:#6d6d6d;
+
+font-family: Helvetica-Light;
+font-size: 13px;
+color: #4A4A4A;
+line-height: 20px;
 }
 
 .idea-card .sent-by{
-  background:#e3e3e3;
-  padding:5px;
-  position:absolute;
-  bottom:0px;
-  width:100%;
-  left:0px;
+  background:#D8D8D8;
+  color:#000;
+  font-size:13px;
+  line-height: 25px;
+  opacity: .45;
+}
+
+.idea-card .category{
+font-family: Helvetica-Light;
+font-size: 15px;
+color: #4A4A4A;
+line-height: 39px;
+}
+
+.idea-card > div, .idea-card > p, .idea-card > h6{
+  padding:5px 10px !important;
 }
 
 #postModal h2{
@@ -369,6 +382,18 @@ h2.narrow{
   font-weight:100;
   font-size:12pt;
   line-height:12pt;
+}
+
+.ideaPostBtn{
+border-radius: 8px;
+background: #F1253E;
+padding:10px;
+font-family: Helvetica-Light;
+font-size: 25px;
+color: #FFFFFF;
+line-height: 39px;
+margin-top:70px;
+display: inline-block;
 }
 
 /*FOR MOBILES*/

@@ -59,61 +59,76 @@
 <section id="ideas">
   <div class="row">
     
-    <div class="big-ass-text columns medium-12">
+    <div class="columns medium-9" style="margin-bottom:30px;">
 
     <h2 class="narrow">Idea Bank</h2> 
+      <h4 style="color:#242424;font-size:20px;">
+       Maldives can come together, spend a time working on a project and, hopefully, end up with something interesting, new or useful that may potentially have high social impact or could kickstart a viable business
 
-    <div class="text-right" style="margin-top:-30px;">
-    <a href="#" id="post-idea" data-reveal-id="postModal" style="font-size:14pt;">Submit an idea</a>
-
-      <!-- post modal -->
-      <div id="postModal" class="reveal-modal large">
-        <h2 class="text-left">Have an idea? Post it</h2>
-        <form id="idea-form">
-          
-          <input type="text" id="name" name="Idea[name]" placeholder="your name"/>
-
-          <input type="text" id="name" name="Idea[name]" placeholder="email"/>
-
-          <input type="text" id="title" name="Idea[title]" placeholder="...title"/>
-
-          <textarea name="Idea[content]" id="content" style="height:150px;" placeholder="...type your idea here"></textarea>
-
-          <input id="submitIdea" type="button" class="button small" value="Send" />
-        </form>
-      </div>
-
-      <div id="successModal" class="reveal-modal large">
-        <h2 class="text-left">We have received your idea, Thankx</h2>
-      </div>
-      <!-- end of post modal -->
+      </h4>
     </div>
+
+
+    <!-- post modal -->
+        <div id="postModal" class="reveal-modal large">
+          <h2 class="text-left">Have an idea? Send it right away...</h2>
+          <form id="idea-form">
+            
+            <input type="text" id="name" name="Idea[name]" placeholder="your name <you can leave blank to stay anonymous>"/>
+
+            <input type="text" id="name" name="Idea[name]" placeholder="your email <you can leave blank to stay anonymous>"/>
+
+            <input type="text" id="title" name="Idea[title]" placeholder="title of the idea"/>
+
+            <textarea name="Idea[content]" id="content" style="height:150px;" placeholder="give us some details"></textarea>
+            
+            <div class="text-left" style="opacity:.8;">Leave name field blank to stay anonymous</div>
+
+            <div class="text-right">
+            <input id="submitIdea" type="button" class="button small" value="Send" />
+            </div>
+          </form>
+        </div>
+
+        <div id="successModal" class="reveal-modal large">
+          <h2 class="text-left">Thank you for the contribution, we will review your idea.</h2>
+        </div>
+    <!-- end of post modal -->
+
+    <div class="columns medium-3 text-right">
+
+      <a href="#" class="ideaPostBtn" id="post-idea" data-reveal-id="postModal">Submit Idea</a>
     
-    <h4 style="color:#979696;">Dont have any idea where to start. Here are some to get the wheels turning. Post here if you are looking for team mates</h4>
     </div>
+  </div>
     <div class="row">
     <?php
     $feed = json_decode(file_get_contents("http://kickstart.mv/blog/wp_api/v1/posts/?post_type=ideas"),true);
 
     $posts = $feed['posts'];
 
-    foreach($posts as $post){
+    $postc = count($posts);
+
+    foreach($posts as $i => $post){
     ?>
-      <div class="columns medium-4 idea-card">
+      <div class="columns medium-3" style="<?php if($i+1 == $postc){ echo "float:left;"; } ?>">
+        <div class="idea-card">
           <h6><?php echo $post['title']; ?></h6>
 
-          <p>
-            <?php echo $post['content_display']; ?>
-          </p>
-
           <div class="sent-by">
-            <?php echo $post['meta']['custom_fields']['wpcf-name']; ?>
+            By: <?php echo $post['meta']['custom_fields']['wpcf-name']; ?>
           </div>
+
+          <div class="category">
+            Category: 
+          </div>
+
+          <?php echo $post['content_display']; ?>
+        </div>
       </div>
     <?php } ?>
     </div>
 
-  </div>
 </section>
 
 <section id="footer" class="slide">
@@ -143,18 +158,24 @@
 
       var params = $('#idea-form').serialize();
 
+      
       $.post('post-idea.php',params,function(response){
         if(response.status == 0){
           // errors
         }
         else{
-          
+          displaySucces();
         }
-      },'json');
+      },'json'); 
 
     });
 
   });
+
+  function displaySucces(){
+    $('#postModal').trigger('reveal:close');
+    $('#successModal').trigger('reveal:open');
+  }
 
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
