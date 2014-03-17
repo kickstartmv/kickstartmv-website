@@ -325,6 +325,51 @@ opacity: .51;
   border-top:2px solid #2f2f2f;
 }
 
+#ideas{
+  background:#edeeef;
+}
+
+h2.narrow{
+  font-weight:100;
+  font-family: HelveticaNeue-Thin;
+  color:#eb6502;
+}
+
+.idea-card{
+  background:#fff;
+  padding:10px;
+  border-radius:8px;
+  drop-shadow: 0 0 2px #000;
+  posiiton:relative;
+  overflow:hidden;
+}
+
+.idea-card h6{
+  font-size:13pt;
+  text-transform: uppercase;
+  font-weight:400;
+  color:#393838;
+}
+
+.idea-card p{
+  color:#6d6d6d;
+}
+
+.idea-card .sent-by{
+  background:#e3e3e3;
+  padding:5px;
+  position:absolute;
+  bottom:0px;
+  width:100%;
+  left:0px;
+}
+
+#postModal h2{
+  color:#2f2f2f;
+  font-weight:100;
+  font-size:12pt;
+  line-height:12pt;
+}
 
 /*FOR MOBILES*/
 @media (max-width: 767px) {
