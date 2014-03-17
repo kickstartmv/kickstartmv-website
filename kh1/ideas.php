@@ -22,7 +22,7 @@
   <meta name="twitter:image:src" content="http://kickstart.mv/kh1/img/cover_image.jpg"/>
 
   <link rel="stylesheet" href="css/foundation.min.css" />
-  <link rel="stylesheet" href="css/style.css?v=1.1"/>
+  <link rel="stylesheet" href="css/style.css?v=1.2"/>
   <link rel="stylesheet" href="css/reveal.css"/>
   <script src="js/modernizr.js"></script>
   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
@@ -103,7 +103,7 @@
   </div>
     <div class="row">
     <?php
-    $feed = json_decode(file_get_contents("http://kickstart.mv/blog/wp_api/v1/posts/?post_type=ideas"),true);
+    $feed = json_decode(file_get_contents("http://www.kickstart.mv/blog/wp_api/v1/posts/?post_type=ideas"),true);
 
     $posts = $feed['posts'];
 
