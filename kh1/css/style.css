@@ -390,9 +390,9 @@ line-height: 39px;
 }
 
 .ideaPostBtn{
-border-radius: 8px;
+border-radius: 3px;
 background: #F1253E;
-padding:10px;
+padding: 4px 17px;
 font-family: Helvetica-Light;
 font-size: 25px;
 color: #FFFFFF;
