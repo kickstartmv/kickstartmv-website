@@ -71,7 +71,7 @@
 
     <!-- post modal -->
         <div id="postModal" class="reveal-modal large">
-          <h2 class="text-left">Have an idea? Send it right away...</h2>
+          <h2 class="text-left" id="post-label">Have an idea? Send it right away...</h2>
           <form id="idea-form">
             
             <input type="text" id="name" name="Idea[name]" placeholder="your name <you can leave blank to stay anonymous>"/>
@@ -156,13 +156,21 @@
 
       var params = $('#idea-form').serialize();
 
+      $('#post-label').text('Posting..');
+      $('#submitIdea').attr('disabled','true');
       
       $.post('post-idea.php',params,function(response){
         if(response.status == 0){
           // errors
         }
         else{
-          displaySucces();
+          displaySuccess();
+          $('#submitIdea').removeAttr('disabled');
+          $('#post-label').text('Have an idea? Send it right away...');
+
+          $('#idea-form').find('input').each(function(){
+          	$(this).reset();
+          });
         }
       },'json'); 
 
@@ -170,7 +178,7 @@
 
   });
 
-  function displaySucces(){
+  function displaySuccess(){
     $('#postModal').trigger('reveal:close');
     $('#successModal').trigger('reveal:open');
   }
