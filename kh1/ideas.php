@@ -81,8 +81,6 @@
             <input type="text" id="title" name="Idea[title]" placeholder="title of the idea"/>
 
             <textarea name="Idea[content]" id="content" style="height:150px;" placeholder="give us some details"></textarea>
-            
-            <div class="text-left" style="opacity:.8;">Leave name field blank to stay anonymous</div>
 
             <div class="text-right">
             <input id="submitIdea" type="button" class="button small" value="Send" />
@@ -120,7 +118,7 @@
           </div>
 
           <div class="category">
-            Category: 
+            Category: <?php echo $post['taxonomies']['category'][1]['name']; ?>
           </div>
 
           <?php echo $post['content_display']; ?>
