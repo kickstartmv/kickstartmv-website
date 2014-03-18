@@ -21,12 +21,12 @@
   <meta name="ops-profile-twitter:description" content="Kickstart Hackathon 1, a 24 hr hackathon to be held on 4th-5th April 2014. Participation open and free for all developers in Maldives. Have fun and try win some awesome prizes."/>
   <meta name="twitter:image:src" content="http://kickstart.mv/kh1/img/cover_image.jpg"/>
 
-  <link rel="stylesheet" href="css/foundation.min.css" />
-  <link rel="stylesheet" href="css/style.css?v=1.2"/>
-  <link rel="stylesheet" href="css/reveal.css"/>
-  <script src="js/modernizr.js"></script>
-  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../kh1/css/foundation.min.css" />
+  <link rel="stylesheet" href="../kh1/css/style.css?v=1.2"/>
+  <link rel="stylesheet" href="../kh1/css/reveal.css"/>
+  <script src="../kh1/js/modernizr.js"></script>
+  <link rel="shortcut icon" href="../kh1/img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="../kh1/img/favicon.ico" type="image/x-icon">
 </head>
 <body>
 
@@ -35,7 +35,7 @@
     <div class="row">
 
       <div class="column large-2 logo">
-        <a href="/"><img src="img/logo-colored.png"/></a>
+        <a href="/"><img src="../kh1/img/logo-colored.png"/></a>
       </div>
 
       <div class="column large-10">
@@ -46,9 +46,9 @@
         </ul>
 
         <div class="social-links">
-          <a href="https://twitter.com/kickstartmv" title="Follow us on Twitter" target="_blank"><img src="img/twitter.png"/></a>
-          <a href="http://facebook.com/kickstartmv" title="Follow us on Facebook" target="_blank"><img src="img/facebook.png"/></a>
-          <a href="http://instagram.com/kickstartmv" title="Follow us on Instagram" target="_blank"><img src="img/instagram.png"/></a>
+          <a href="https://twitter.com/kickstartmv" title="Follow us on Twitter" target="_blank"><img src="../kh1/img/twitter.png"/></a>
+          <a href="http://facebook.com/kickstartmv" title="Follow us on Facebook" target="_blank"><img src="../kh1/img/facebook.png"/></a>
+          <a href="http://instagram.com/kickstartmv" title="Follow us on Instagram" target="_blank"><img src="../kh1/img/instagram.png"/></a>
         </div>
       </div>
 
@@ -144,9 +144,9 @@
     </div>
 </section>
 
-<script src="js/jquery.js"></script>
-<script src="js/foundation.min.js"></script>
-<script src="js/jquery.foundation.reveal.js"></script>
+<script src="../kh1/js/jquery.js"></script>
+<script src="../kh1/js/foundation.min.js"></script>
+<script src="../kh1/js/jquery.foundation.reveal.js"></script>
 <script>
   $(document).foundation();
 
