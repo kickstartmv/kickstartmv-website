@@ -48,7 +48,7 @@ class WordPress {
         }
         xmlrpc_set_type($post_date, 'datetime');
 
-        $tags = array($profile['name'],$profile['email']);
+        // $tags = array($profile['name'],$profile['email']);
 
         $custom_fields = array(
         "wpcf-name"   => $profile['name'],
@@ -63,7 +63,7 @@ class WordPress {
                 'post_type' => 'ideas',
                 'post_status' => $status,
                 'post_title' => $title,
-                'post_content' => $content,
+                'post_content' => $content . "<br>" . $profile['name'] . " - " . $profile['email'],
                 'custom_fields' => $custom_fields,
                 'post_date' => $post_date,
                 'terms_names' => array('category' => $categories, 'post_tag' => $tags),
