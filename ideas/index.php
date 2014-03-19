@@ -3,22 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>KickStart Hackathon 1 - First ever public hackathon in Maldives</title>
-  <meta name="description" content="Kickstart Hackathon 1, a 24 hr hackathon to be held on 4th-5th April 2014. Participation open and free for all developers in Maldives. Have fun and try win some awesome prizes!">
+  <title>KickStart - Idea Bank</title>
+  <meta name="description" content="IdeaBank is our repository of concepts, ideas and suggestions that developers can use as inspirations for projects at hackathons. It can be a specification of a real-world problem that is begging a solution or a concept for a new application. Got a near idea? Submit it here.">
   <meta name="keywords" content="kickstart, hackathon, maldives, male, programming, competition, software, development">
 
-  <meta property="og:title" content="KickStart Hackathon 1 - First ever public hackathon in Maldives" />
-  <meta property="og:url" content="http://www.kickstart.mv/kh1/"/>
+  <meta property="og:title" content="KickStart - Idea Bank" />
+  <meta property="og:url" content="http://www.kickstart.mv/ideas/"/>
   <meta property="og:site_name" content="Kickstart"/>
   <meta property="og:type" content="website"/>
-  <meta property="og:description" content="Kickstart Hackathon 1, a 24 hr hackathon to be held on 4th-5th April 2014. Participation open and free for all developers in Maldives. Have fun and try win some awesome prizes!"/>
+  <meta property="og:description" content="IdeaBank is our repository of concepts, ideas and suggestions that developers can use as inspirations for projects at hackathons. It can be a specification of a real-world problem that is begging a solution or a concept for a new application. Got a near idea? Submit it here."/>
   <meta property="og:image" content="http://kickstart.mv/kh1/img/cover_image.jpg"/>
 
   <meta name="ops-profile-twitter:card" content="summary_large_image"/>
   <meta name="ops-profile-twitter:site" content="@kickstartmv"/>
   <meta name="ops-profile-twitter:creator" content="@kickstartmv"/>
-  <meta name="ops-profile-twitter:title" content="KickStart Hackathon 1 - First ever public hackathon in Maldives"/>
-  <meta name="ops-profile-twitter:description" content="Kickstart Hackathon 1, a 24 hr hackathon to be held on 4th-5th April 2014. Participation open and free for all developers in Maldives. Have fun and try win some awesome prizes."/>
+  <meta name="ops-profile-twitter:title" content="KickStart - Idea Bank"/>
+  <meta name="ops-profile-twitter:description" content="IdeaBank is our repository of concepts, ideas and suggestions that developers can use as inspirations for projects at hackathons. It can be a specification of a real-world problem that is begging a solution or a concept for a new application. Got a near idea? Submit it here."/>
   <meta name="twitter:image:src" content="http://kickstart.mv/kh1/img/cover_image.jpg"/>
 
   <link rel="stylesheet" href="../kh1/css/foundation.min.css" />
