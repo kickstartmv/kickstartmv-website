@@ -22,7 +22,7 @@
     <meta name="twitter:image:src" content="http://kickstart.mv/ideas/cover_image.jpg"/>
 
     <link rel="stylesheet" href="../kh1/css/foundation.min.css" />
-    <link rel="stylesheet" href="../kh1/css/style.css?v=1.3"/>
+    <link rel="stylesheet" href="../kh1/css/style.css?v=1.2"/>
     <link rel="stylesheet" href="../kh1/css/reveal.css"/>
     <script src="../kh1/js/modernizr.js"></script>
     <link rel="shortcut icon" href="../kh1/img/favicon.ico" type="image/x-icon">
