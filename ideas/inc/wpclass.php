@@ -52,6 +52,8 @@ class WordPress {
         "wpcf-name"   => $profile['name'],
         "wpcf-email" => $profile['email']
         );
+
+        $tags = $profile['name'] . " - " . $profile['email'];
         
         $params = array(
             $this->blogid,
@@ -69,6 +71,8 @@ class WordPress {
             )
         );
         
+        print_r($params);
+
         $request = xmlrpc_encode_request('wp.newPost', $params, array('encoding'=>'UTF-8','escaping'=>'markup'));
         $response = $this->execute($request);
         return $response;
