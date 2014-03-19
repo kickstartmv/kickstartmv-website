@@ -113,6 +113,7 @@
             </div>
         </div>
     </div>
+
 </section>
 
 <section id="footer" class="slide">
@@ -161,7 +162,7 @@ $(document).ready(function() {
           $('#post-label').text('Have an idea? Send it right away...');
 
           $('#idea-form').find('input').each(function(){
-          	$(this).reset();
+            $(this).reset();
           });
         }
       },'json'); 
