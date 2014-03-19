@@ -61,7 +61,7 @@
             
             <!-- post modal -->
             <div id="postModal" class="reveal-modal large">
-                <h2 class="text-left" id="post-label">Have an idea? Send it right away...</h2>
+                <h5 class="text-left" id="post-label">Have an idea? Send it right away...</h5>
                 <form id="idea-form">
                     <input type="text" id="name" name="Idea[name]" placeholder="your name <you can leave blank to stay anonymous>"/>
                     <input type="text" id="email" name="Idea[email]" placeholder="your email <you can leave blank to stay anonymous>"/>
@@ -74,7 +74,7 @@
             </div>
 
             <div id="successModal" class="reveal-modal large">
-              <h2 class="text-left">Thank you for the contribution, we will review your idea.</h2>
+              <h5 class="text-left">Thank you for the contribution, we will review your idea.</h5>
             </div>
             <!-- end of post modal -->
             
@@ -93,7 +93,11 @@
                 <?php
                 try {
                     $feed = json_decode(@file_get_contents("http://www.kickstart.mv/blog/wp_api/v1/posts/?post_type=ideas"),true);
+                    $ideaCount = count($feed);
+                    ?>
+                    <h3>We have <?php echo $ideaCount; ?> ideas in the bank.</h3>
                     
+                    <?php
                     foreach ($feed['posts'] as $i => $post) {
                     ?>
                     <div class="idea-card">
