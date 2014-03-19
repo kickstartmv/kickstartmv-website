@@ -2,8 +2,9 @@
 
 date_default_timezone_set("Indian/Maldives");
 
-require_once 'inc/wpclass.php';
 require_once 'inc/config.php';
+require_once 'inc/wpclass.php';
+
 
 $post = $_POST['Idea'];
 
