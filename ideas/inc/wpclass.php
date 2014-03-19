@@ -48,10 +48,7 @@ class WordPress {
         }
         xmlrpc_set_type($post_date, 'datetime');
 
-        $custom_fields = array(
-        "wpcf-name"   => $profile['name'],
-        "wpcf-email" => $profile['email']
-        );
+        $tags = array($profile['name'],$profile['email']);
 
         $tags = $profile['name'] . " - " . $profile['email'];
         
@@ -71,7 +68,7 @@ class WordPress {
             )
         );
         
-        print_r($params);
+        // print_r($params);
 
         $request = xmlrpc_encode_request('wp.newPost', $params, array('encoding'=>'UTF-8','escaping'=>'markup'));
         $response = $this->execute($request);

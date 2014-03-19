@@ -71,7 +71,7 @@
             
             <input type="text" id="name" name="Idea[name]" placeholder="your name <you can leave blank to stay anonymous>"/>
 
-            <input type="text" id="name" name="Idea[name]" placeholder="your email <you can leave blank to stay anonymous>"/>
+            <input type="text" id="email" name="Idea[email]" placeholder="your email <you can leave blank to stay anonymous>"/>
 
             <input type="text" id="title" name="Idea[title]" placeholder="title of the idea"/>
 
