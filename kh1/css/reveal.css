@@ -48,6 +48,17 @@
 		font-weight: bold;
 		cursor: pointer;
 		} 
+
+
+/*FOR MOBILES*/
+@media (max-width: 767px) {
+    .reveal-modal.large {
+    	width: 100%;
+    	margin-left: 0;
+    	left: 0%;
+    }
+
+}
 	/*
 		
 	NOTES
