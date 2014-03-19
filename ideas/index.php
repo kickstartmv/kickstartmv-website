@@ -51,29 +51,6 @@
         </div>
     </div>
 
-<<<<<<< HEAD
-=======
-<!-- post modal -->
-    <div id="postModal" class="reveal-modal large">
-        <h2 class="text-left" id="post-label">Have an idea? Send it right away...</h2>
-        <form id="idea-form">
-            <input type="text" id="name" name="Idea[name]" placeholder="your name <you can leave blank to stay anonymous>"/>
-            <input type="text" id="email" name="Idea[email]" placeholder="your email <you can leave blank to stay anonymous>"/>
-            <input type="text" id="title" name="Idea[title]" placeholder="title of the idea"/>
-            <textarea name="Idea[content]" id="content" style="height:150px;" placeholder="give us some details"></textarea>
-            <div class="text-right">
-                <input id="submitIdea" type="button" class="button small" value="Send" />
-            </div>
-        </form>
-    </div>
-
-    <div id="successModal" class="reveal-modal large">
-      <h2 class="text-left">Thank you for the contribution, we will review your idea.</h2>
-    </div>
-<!-- end of post modal -->
-
-<section id="ideas" class="slide text-black">
->>>>>>> 822dc29c0cbe3103b2b51ef4665893e37adecdd6
     <div class="row">
         <div class="columns medium-9 large-centered big-ass-text">
             <h3 class="text-center">Idea Bank</h3> 
@@ -82,6 +59,26 @@
         </div>
 
         <div class="columns medium-3 text-right">
+            
+            <!-- post modal -->
+            <div id="postModal" class="reveal-modal large">
+                <h2 class="text-left" id="post-label">Have an idea? Send it right away...</h2>
+                <form id="idea-form">
+                    <input type="text" id="name" name="Idea[name]" placeholder="your name <you can leave blank to stay anonymous>"/>
+                    <input type="text" id="email" name="Idea[email]" placeholder="your email <you can leave blank to stay anonymous>"/>
+                    <input type="text" id="title" name="Idea[title]" placeholder="title of the idea"/>
+                    <textarea name="Idea[content]" id="content" style="height:150px;" placeholder="give us some details"></textarea>
+                    <div class="text-right">
+                        <input id="submitIdea" type="button" class="button small" value="Send" />
+                    </div>
+                </form>
+            </div>
+
+            <div id="successModal" class="reveal-modal large">
+              <h2 class="text-left">Thank you for the contribution, we will review your idea.</h2>
+            </div>
+            <!-- end of post modal -->
+
             <a href="#" class="ideaPostBtn" id="post-idea" data-reveal-id="postModal">Submit Idea</a>
         </div>
     </div>
