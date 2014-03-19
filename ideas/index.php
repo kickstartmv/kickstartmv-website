@@ -90,36 +90,32 @@
 <section id="ideas" class="slide text-black">
     <div class="row">
         <div class="columns medium-12">
-            <div id="container">
-                <?php
-                try {
-                    $feed = json_decode(@file_get_contents("http://www.kickstart.mv/blog/wp_api/v1/posts/?post_type=ideas"),true);
-                    $ideaCount = count($feed);
-                    ?>
-                    <h3>We have <?php echo $ideaCount; ?> ideas in the bank.</h3>
-
-                    <?php
-                    foreach ($feed['posts'] as $i => $post) {
-                    ?>
+            <?php
+            try {
+            $feed = json_decode(@file_get_contents("http://www.kickstart.mv/blog/wp_api/v1/posts/?post_type=ideas"),true);
+            $ideaCount = count($feed);
+            ?>
+                <h4>We have <?php echo $ideaCount; ?> ideas in the bank.</h4>
+                <div id="container">
+                    <?php foreach ($feed['posts'] as $i => $post): ?>
                     <div class="idea-card">
                         <h6><?php echo $post['title']; ?></h6>
                         <?php echo $post['content_display']; ?>
                         <div class="sent-by">By: <?php echo $post['meta']['custom_fields']['wpcf-name']; ?></div>
                         <div class="category" style="display:none">Category: <?php //echo $post['taxonomies']['category'][0]['name']; ?></div>
                     </div>
-                <?php
-                    }
-                }
-                catch (Exception $e) {
-                    ?>
-                    <div class="text-center">Ideas list unavailable or idea overload!</div>
-                    <?php
-                }
+                    <?php endforeach; ?>
+                </div>
+            <?php
+            }
+            catch (Exception $e) {
                 ?>
-            </div>
+                <div class="text-center">Ideas list unavailable or idea overload!</div>
+                <?php
+            }
+            ?>
         </div>
     </div>
-
 </section>
 
 <section id="footer" class="slide">
