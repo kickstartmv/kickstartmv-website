@@ -12,14 +12,14 @@
   <meta property="og:site_name" content="Kickstart"/>
   <meta property="og:type" content="website"/>
   <meta property="og:description" content="IdeaBank is our repository of concepts, ideas and suggestions that developers can use as inspirations for projects at hackathons. It can be a specification of a real-world problem that is begging a solution or a concept for a new application. Got a near idea? Submit it here."/>
-  <meta property="og:image" content="http://kickstart.mv/kh1/img/cover_image.jpg"/>
+  <meta property="og:image" content="http://kickstart.mv/ideas/cover_image.jpg"/>
 
   <meta name="ops-profile-twitter:card" content="summary_large_image"/>
   <meta name="ops-profile-twitter:site" content="@kickstartmv"/>
   <meta name="ops-profile-twitter:creator" content="@kickstartmv"/>
   <meta name="ops-profile-twitter:title" content="KickStart - Idea Bank"/>
   <meta name="ops-profile-twitter:description" content="IdeaBank is our repository of concepts, ideas and suggestions that developers can use as inspirations for projects at hackathons. It can be a specification of a real-world problem that is begging a solution or a concept for a new application. Got a near idea? Submit it here."/>
-  <meta name="twitter:image:src" content="http://kickstart.mv/kh1/img/cover_image.jpg"/>
+  <meta name="twitter:image:src" content="http://kickstart.mv/ideas/cover_image.jpg"/>
 
   <link rel="stylesheet" href="../kh1/css/foundation.min.css" />
   <link rel="stylesheet" href="../kh1/css/style.css?v=1.2"/>
