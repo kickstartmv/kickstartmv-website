@@ -341,7 +341,10 @@ h2.narrow {
 }
 
 #idea-submit-container {
-  margin-top:70px;
+  margin-top:190px;
+}
+#idea-submit-container h5 {
+  color: #F1253E;
 }
 
 .idea-card {

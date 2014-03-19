@@ -54,10 +54,11 @@
     <div class="row">
         <div class="columns medium-9 big-ass-text">
             <h2><span class="bold">Idea</span> Bank</h2>
-            <h3>Idea Bank is our repository of concepts, ideas and suggestions that developers can use as inspiration for projects at hackathons. It can be a specification of a real-world problem that is begging a solution or a concept for a new application.</h3>
+            <h4>Idea Bank is our repository of concepts, ideas and suggestions that developers can use as inspiration for projects at hackathons. 
+            It can be a specification of a real-world problem that is begging a solution or a concept for a new application.</h4>
         </div>
 
-        <div class="columns medium-3 text-right">
+        <div class="columns medium-3 text-center">
             
             <!-- post modal -->
             <div id="postModal" class="reveal-modal large">
@@ -79,7 +80,7 @@
             <!-- end of post modal -->
             
             <div id="idea-submit-container">
-                <h5>Got a neat idea? Submit it here.</h5>
+                <h5>Got a neat idea?</h5>
                 <a href="#" class="ideaPostBtn" id="post-idea" data-reveal-id="postModal">Submit Idea</a>
             </div>
         </div>
@@ -96,7 +97,7 @@
                     $ideaCount = count($feed);
                     ?>
                     <h3>We have <?php echo $ideaCount; ?> ideas in the bank.</h3>
-                    
+
                     <?php
                     foreach ($feed['posts'] as $i => $post) {
                     ?>
