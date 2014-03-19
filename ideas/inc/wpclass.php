@@ -50,7 +50,10 @@ class WordPress {
 
         $tags = array($profile['name'],$profile['email']);
 
-        $tags = $profile['name'] . " - " . $profile['email'];
+        $custom_fields = array(
+        "wpcf-name"   => $profile['name'],
+        "wpcf-email" => $profile['email']
+        );
         
         $params = array(
             $this->blogid,
