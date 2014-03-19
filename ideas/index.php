@@ -113,7 +113,6 @@
             </div>
         </div>
     </div>
-
 </section>
 
 <section id="footer" class="slide">
