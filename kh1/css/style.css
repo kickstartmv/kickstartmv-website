@@ -516,6 +516,10 @@ display: inline-block;
       top:10px;
     }
 
+    #idea-submit-container {
+      margin-top:90px;
+    }
+
     .idea-card {
       width: 100%;
     }
