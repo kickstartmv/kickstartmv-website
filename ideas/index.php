@@ -39,11 +39,7 @@
       </div>
 
       <div class="column large-10">
-        <ul class="navigation">
-          <li><a href="/kh1/about.html">About</a></li>
-          <li><a href="/kh1">Hackathons</a></li>
-          <li><a href="/blog">Blog</a></li>
-        </ul>
+        <?php include '../kh1/_topmenu.html'; ?>
 
         <div class="social-links">
           <a href="https://twitter.com/kickstartmv" title="Follow us on Twitter" target="_blank"><img src="../kh1/img/twitter.png"/></a>
