@@ -63,7 +63,7 @@
 
     <h2 class="narrow">Idea Bank</h2> 
       <h4 style="color:#242424;font-size:20px;">
-       Maldives can come together, spend a time working on a project and, hopefully, end up with something interesting, new or useful that may potentially have high social impact or could kickstart a viable business
+       IdeaBank is our repository of concepts, ideas and suggestions that developers can use as inspirations for projects at hackathons. It can be a specification of a real-world problem that is begging a solution or a concept for a new application. Got a near idea? Submit it here.
 
       </h4>
     </div>
@@ -117,8 +117,8 @@
             By: <?php echo $post['meta']['custom_fields']['wpcf-name']; ?>
           </div>
 
-          <div class="category">
-            Category: <?php echo $post['taxonomies']['category'][1]['name']; ?>
+          <div class="category" style="display:none">
+            Category: <?php //echo $post['taxonomies']['category'][0]['name']; ?>
           </div>
 
           <?php echo $post['content_display']; ?>
