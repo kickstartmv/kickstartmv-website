@@ -47,6 +47,13 @@ class WordPress {
             $post_date = $date;
         }
         xmlrpc_set_type($post_date, 'datetime');
+
+        // $tags = array($profile['name'],$profile['email']);
+
+        $custom_fields = array(
+        "wpcf-name"   => $profile['name'],
+        "wpcf-email" => $profile['email']
+        );
         
         $params = array(
             $this->blogid,
@@ -56,15 +63,16 @@ class WordPress {
                 'post_type' => 'ideas',
                 'post_status' => $status,
                 'post_title' => $title,
-                'post_content' => $content,
-                'wpcf-name' => $profile['name'],
-                'wpcf-email' => $profile['email'],
+                'post_content' => $content . "<br>" . $profile['name'] . " - " . $profile['email'],
+                'custom_fields' => $custom_fields,
                 'post_date' => $post_date,
                 'terms_names' => array('category' => $categories, 'post_tag' => $tags),
                 'post_thumbnail' => $post_thumbnail,
             )
         );
         
+        // print_r($params);
+
         $request = xmlrpc_encode_request('wp.newPost', $params, array('encoding'=>'UTF-8','escaping'=>'markup'));
         $response = $this->execute($request);
         return $response;
