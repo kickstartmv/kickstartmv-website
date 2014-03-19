@@ -140,6 +140,7 @@ $(document).foundation();
 $(document).ready(function() {
     $('#container').masonry({
         columnWidth: 200,
+        "gutter": 10,
         itemSelector: '.idea-card'
     });
 
