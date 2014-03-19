@@ -52,10 +52,9 @@
     </div>
 
     <div class="row">
-        <div class="columns medium-9 large-centered big-ass-text">
-            <h3 class="text-center">Idea Bank</h3> 
-            <h5>Idea Bank is our repository of concepts, ideas and suggestions that developers can use as inspiration for projects at hackathons. It can be a specification of a real-world problem that is begging a solution or a concept for a new application.</h5>
-            <h5>Got a neat idea? Submit it here.</h5>
+        <div class="columns medium-9 big-ass-text">
+            <h2><span class="bold">Idea</span> Bank</h2>
+            <h3>Idea Bank is our repository of concepts, ideas and suggestions that developers can use as inspiration for projects at hackathons. It can be a specification of a real-world problem that is begging a solution or a concept for a new application.</h3>
         </div>
 
         <div class="columns medium-3 text-right">
@@ -78,8 +77,11 @@
               <h2 class="text-left">Thank you for the contribution, we will review your idea.</h2>
             </div>
             <!-- end of post modal -->
-
-            <a href="#" class="ideaPostBtn" id="post-idea" data-reveal-id="postModal">Submit Idea</a>
+            
+            <div id="idea-submit-container">
+                <h5>Got a neat idea? Submit it here.</h5>
+                <a href="#" class="ideaPostBtn" id="post-idea" data-reveal-id="postModal">Submit Idea</a>
+            </div>
         </div>
     </div>
 </section>
