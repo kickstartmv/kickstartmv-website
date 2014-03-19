@@ -50,16 +50,14 @@
 
         </div>
     </div>
-</section>
 
-<section id="ideas" class="slide text-black">
     <div class="row">
-        <div class="columns medium-9">
+        <div class="columns medium-9 large-centered big-ass-text">
             <h3 class="text-center">Idea Bank</h3> 
             <h5>Idea Bank is our repository of concepts, ideas and suggestions that developers can use as inspiration for projects at hackathons. It can be a specification of a real-world problem that is begging a solution or a concept for a new application.</h5>
             <h5>Got a neat idea? Submit it here.</h5>
         </div>
-        
+
         <div class="columns medium-3 text-right">
             <!-- post modal -->
             <div id="postModal" class="reveal-modal large">
@@ -83,31 +81,35 @@
             <a href="#" class="ideaPostBtn" id="post-idea" data-reveal-id="postModal">Submit Idea</a>
         </div>
     </div>
-    
-    <div class="row">
-        <div id="container" class="columns medium-12">
-        <?php
-        try {
-            $feed = json_decode(@file_get_contents("http://www.kickstart.mv/blog/wp_api/v1/posts/?post_type=ideas"),true);
-            $posts = $feed['posts'];
+</section>
 
-            foreach ($posts as $i => $post) {
-            ?>
-            <div class="idea-card">
-                <h6><?php echo $post['title']; ?></h6>
-                <div class="sent-by">By: <?php echo $post['meta']['custom_fields']['wpcf-name']; ?></div>
-                <div class="category" style="display:none">Category: <?php //echo $post['taxonomies']['category'][0]['name']; ?></div>
-                <p><?php echo nl2br($post['content_display']); ?></p>
+<section id="ideas" class="slide text-black">
+    <div class="row">
+        <div class="columns medium-12">
+            <div id="container">
+                <?php
+                try {
+                    $feed = json_decode(@file_get_contents("http://www.kickstart.mv/blog/wp_api/v1/posts/?post_type=ideas"),true);
+                    $posts = $feed['posts'];
+
+                    foreach ($posts as $i => $post) {
+                    ?>
+                    <div class="idea-card">
+                        <h6><?php echo $post['title']; ?></h6>
+                        <?php echo $post['content_display']; ?>
+                        <div class="sent-by">By: <?php echo $post['meta']['custom_fields']['wpcf-name']; ?></div>
+                        <div class="category" style="display:none">Category: <?php //echo $post['taxonomies']['category'][0]['name']; ?></div>
+                    </div>
+                <?php
+                    }
+                }
+                catch (Exception $e) {
+                    ?>
+                    <div class="text-center">Ideas list unavailable or idea overload!</div>
+                    <?php
+                }
+                ?>
             </div>
-        <?php
-            }
-        }
-        catch (Exception $e) {
-            ?>
-            <div class="text-center">Ideas list unavailable or idea overload!</div>
-            <?php
-        }
-        ?>
         </div>
     </div>
 
