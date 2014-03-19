@@ -91,9 +91,8 @@
                 <?php
                 try {
                     $feed = json_decode(@file_get_contents("http://www.kickstart.mv/blog/wp_api/v1/posts/?post_type=ideas"),true);
-                    $posts = $feed['posts'];
-
-                    foreach ($posts as $i => $post) {
+                    
+                    foreach ($feed['posts'] as $i => $post) {
                     ?>
                     <div class="idea-card">
                         <h6><?php echo $post['title']; ?></h6>
