@@ -93,7 +93,7 @@
             <?php
             try {
             $feed = json_decode(@file_get_contents("http://www.kickstart.mv/blog/wp_api/v1/posts/?post_type=ideas"),true);
-            $ideaCount = count($feed);
+            $ideaCount = count($feed['posts']);
             ?>
                 <h4>We have <?php echo $ideaCount; ?> ideas in the bank.</h4>
                 <div id="container">
