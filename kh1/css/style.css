@@ -82,7 +82,7 @@ h5 {
   border-bottom: 1px solid #fff;
 }
 
-.text-black h1, .text-black h2, .text-black h3, .text-black h4 {
+.text-black h1, .text-black h2, .text-black h3, .text-black h4, .text-black h5 {
   color: #111;
 }
 .text-black li {
@@ -324,29 +324,30 @@ opacity: .51;
 }
 
 
-#footer{
+#footer {
   padding:20px 0px;
   background:#000;
   border-top:2px solid #2f2f2f;
 }
 
-#ideas{
+#ideas {
   background:#edeeef;
 }
 
-h2.narrow{
+h2.narrow {
   font-weight:100;
   font-family: HelveticaNeue-Thin;
   color:#2f2f2f;
 }
 
-.idea-card{
-  background: #FFFFFF;
+.idea-card {
+  background: #fff;
   border: 1px solid #DBDBDB;
-  margin-bottom:25px;
+  margin-bottom: 25px;
+  width: 31%;
 }
 
-.idea-card h6{
+.idea-card h6 {
 
   font-family: Helvetica;
   font-size: 17px;
@@ -355,7 +356,7 @@ h2.narrow{
   font-weight:400;
 }
 
-.idea-card p{
+.idea-card p {
 
 font-family: Helvetica-Light;
 font-size: 13px;
@@ -363,7 +364,7 @@ color: #4A4A4A;
 line-height: 20px;
 }
 
-.idea-card .sent-by{
+.idea-card .sent-by {
   background:#D8D8D8;
   color:#000;
   font-size:13px;
@@ -371,7 +372,7 @@ line-height: 20px;
   opacity: .45;
 }
 
-.idea-card .category{
+.idea-card .category {
 font-family: Helvetica-Light;
 font-size: 15px;
 color: #4A4A4A;
