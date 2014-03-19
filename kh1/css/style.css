@@ -508,4 +508,9 @@ display: inline-block;
     #header .enroll-today-white{
       top:10px;
     }
+
+    .idea-card {
+      width: 100%;
+    }
+
 }
