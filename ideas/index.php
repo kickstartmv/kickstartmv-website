@@ -51,8 +51,6 @@
         </div>
     </div>
 
-<<<<<<< HEAD
-=======
 <!-- post modal -->
     <div id="postModal" class="reveal-modal large">
         <h2 class="text-left" id="post-label">Have an idea? Send it right away...</h2>
@@ -73,7 +71,7 @@
 <!-- end of post modal -->
 
 <section id="ideas" class="slide text-black">
->>>>>>> 822dc29c0cbe3103b2b51ef4665893e37adecdd6
+
     <div class="row">
         <div class="columns medium-9 large-centered big-ass-text">
             <h3 class="text-center">Idea Bank</h3> 
