@@ -47,6 +47,11 @@ class WordPress {
             $post_date = $date;
         }
         xmlrpc_set_type($post_date, 'datetime');
+
+        $custom_fields = array(
+        "wpcf-name"   => $profile['name'],
+        "wpcf-email" => $profile['email']
+        );
         
         $params = array(
             $this->blogid,
@@ -57,8 +62,7 @@ class WordPress {
                 'post_status' => $status,
                 'post_title' => $title,
                 'post_content' => $content,
-                'wpcf-name' => $profile['name'],
-                'wpcf-email' => $profile['email'],
+                'custom_fields' => $custom_fields,
                 'post_date' => $post_date,
                 'terms_names' => array('category' => $categories, 'post_tag' => $tags),
                 'post_thumbnail' => $post_thumbnail,
