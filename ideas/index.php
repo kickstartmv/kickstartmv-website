@@ -37,7 +37,6 @@
       <div class="column large-2 logo">
         <a href="/"><img src="../kh1/img/logo-colored.png"/></a>
       </div>
-
       <div class="column large-10">
         <?php include '../kh1/_topmenu.html'; ?>
 
