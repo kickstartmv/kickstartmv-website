@@ -324,6 +324,23 @@ opacity: .51;
 }
 
 
+
+.price-winners > div {
+  display: inline-block;
+  width: 320px;
+  padding: 0px 0px;
+  font-size: 1.2em;
+  color: #fff;
+  margin: 15px 0px 30px;
+}
+
+.price-winners > div span {
+  display: block;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+
 #footer {
   padding:20px 0px;
   background:#000;
@@ -400,6 +417,8 @@ line-height: 39px;
 margin-top:20px;
 display: inline-block;
 }
+
+
 
 /*FOR MOBILES*/
 @media (max-width: 767px) {
