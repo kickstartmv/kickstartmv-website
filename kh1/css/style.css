@@ -77,6 +77,12 @@ h5 {
   border-top: 4px solid rgba(255,255,255,0.5);
   margin-top: 30px;
 }
+.panel {
+  background: #fff;
+  border: 1px solid #DBDBDB;
+  padding: 20px;
+  margin: 0px 0px 80px 0px;
+}
 
 .bold {
   border-bottom: 1px solid #fff;
@@ -417,36 +423,11 @@ margin-top:20px;
 display: inline-block;
 }
 
-/* for rules page */
-
-.rules {
-  background: #fff;
-  border: 1px solid #DBDBDB;
-  padding: 20px;
-  margin: 0px 0px 80px 0px;
+#rules hr {
+  border-width: 5px;
+  margin: 50px 0;
 }
 
-.rules h5 {
-  font-size: 2.5em;
-  margin: 0px 0px 15px;
-}
-
-.rules p {
-  margin: 0px 0px 20px 0px;
-  color: #4f4f4f;
-}
-
-.rules hr {
-  margin: 35px 0px;
-}
-
-.smallheading {
-  display: block;
-  font-size: 10pt;
-  opacity: 0.6
-}
-
-/* EOF rules page */
 
 /*FOR MOBILES*/
 @media (max-width: 767px) {
