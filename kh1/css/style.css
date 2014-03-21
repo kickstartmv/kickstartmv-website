@@ -173,7 +173,7 @@ a.enroll-today-white:hover {
   /*height:28px;*/
 }
 
-.sponsor-logos {
+.sponsor-logo {
   display: inline-block;
   margin: 0px 10px 30px 10px;
 }
@@ -533,7 +533,7 @@ display: inline-block;
       margin-top:40px;
     }
 
-    .sponsor-logos {
+    .sponsor-logo {
       margin: 20px 20px;
     }
 
