@@ -173,9 +173,9 @@ a.enroll-today-white:hover {
   /*height:28px;*/
 }
 
-.sponsor-logos a{
-  display:inline-block;
-  margin:0px 10px 30px 10px;
+.sponsor-logos {
+  display: inline-block;
+  margin: 0px 10px 30px 10px;
 }
 
 .ops-profile {
@@ -533,12 +533,7 @@ display: inline-block;
       margin-top:40px;
     }
 
-    .sponsor-logos{
-      text-align: center;
-      margin:40px 0px;
-    }
-
-    .sponsor-logos a{
+    .sponsor-logos {
       margin: 20px 20px;
     }
 
