@@ -440,6 +440,12 @@ display: inline-block;
   margin: 35px 0px;
 }
 
+.smallheading {
+  display: block;
+  font-size: 10pt;
+  opacity: 0.6
+}
+
 /* EOF rules page */
 
 /*FOR MOBILES*/
