@@ -329,22 +329,12 @@ opacity: .51;
   -webkit-transition: all .2s;
 }
 
-.price-winners > div {
-  display: inline-block;
-  width: 320px;
-  padding: 0px 0px;
-  font-size:13pt;
-  color: #fff;
-  margin: 15px 0px 30px;
-}
-
-.price-winners > div span {
-  display: block;
-  font-size:30pt;
+.prize-place.box h4 {
   font-weight: bold;
 }
-
-
+.prize-place.box .highlight {
+  font-weight: bold;
+}
 
 #footer {
   padding:20px 0px;
