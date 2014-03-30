@@ -428,6 +428,51 @@ display: inline-block;
   margin: 50px 0;
 }
 
+.sweetwords{
+  margin-top:30px;
+  min-height: 180px;
+}
+
+.sweetwords .avatar{
+  width:50px;
+  height:50px;
+  border:0px solid #979797;
+  background:#ebebeb;
+  border-radius:50px;
+  overflow:hidden;
+  float:left;
+  margin-bottom:30px;
+}
+
+.sweetwords .details{
+  float:left;
+  width:80%;
+  margin-left:20px;
+}
+
+.sweetwords .details .name{
+/*font-family: HelveticaNeue-Medium;*/
+font-size: 19px;
+color: #000000;
+line-height: 26px;
+}
+
+.sweetwords .details .designation{
+/*font-family: HelveticaNeue-Medium;*/
+font-size: 12px;
+color: #ACACAC;
+line-height: 15px;
+}
+
+.sweetwords .details p{
+/*font-family: Helvetica;*/
+font-size: 14px;
+color: #000000;
+line-height: 19px;
+opacity: .64;
+margin: 10px 0px 30px 0px;
+}
+
 
 /*FOR MOBILES*/
 @media (max-width: 767px) {
