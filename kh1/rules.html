@@ -41,9 +41,7 @@
         <!--#include virtual="./_topmenu.html" -->
 
         <div class="social-links">
-          <a href="https://twitter.com/kickstartmv" title="Follow us on Twitter" target="_blank"><img src="img/twitter.png"/></a>
-          <a href="http://facebook.com/kickstartmv" title="Follow us on Facebook" target="_blank"><img src="img/facebook.png"/></a>
-          <a href="http://instagram.com/kickstartmv" title="Follow us on Instagram" target="_blank"><img src="img/instagram.png"/></a>
+          <!--#include virtual="./_sociallinks.html" -->
         </div>
       </div>
 
