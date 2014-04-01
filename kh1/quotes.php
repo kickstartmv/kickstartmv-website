@@ -75,7 +75,7 @@
           'name' => 'Ismail Rasheed',
           'designation' => 'CHIEF EXECUTIVE, DHIRAAGU',
           'message' => "The ability to write smart programs whether to solve a real life problem, or create an innovative mobile application is a great skill that can improve your employability today in a wide range of industries.  This event by Kickstart is a great opportunity for the young Maldivians to demonstrate their programming skills.",
-          'img' => 'img/avatars/dhiraagu_ce.jpg'
+          'img' => 'img/avatars/dhiraagu_ce2.jpg'
         ),
         array(
           'name' => 'Mohamed Shareef',
