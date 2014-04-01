@@ -61,64 +61,59 @@
 
 <section id="quotes" class="slide">
   <div class="row">
-    <div class="column large-12">
+    <div id="quotelisting" class="column large-12">
 
-      <div class="column large-6 sweetwords">
-        <div class="avatar" style="background-image:url('img/avatars/woz.jpg');background-size:cover"></div>
+      <?php
+      $quotes = array(
+        array(
+          'name' => 'Steve Wozniak',
+          'designation' => 'CO-FOUNDER, APPLE',
+          'message' => "Geeks have no better fun than at hackathons. Fun is better motivation than rewards like salaries and bonuses and grades. There is a lot more creativity at hackathons than in general technology work. You are trying to impress peers with how clever you are. I hope this event is successful and the start of something big",
+          'img' => 'img/avatars/woz.jpg'
+        ),
+        array(
+          'name' => 'Ismail Rasheed',
+          'designation' => 'CHIEF EXECUTIVE, DHIRAAGU',
+          'message' => "The ability to write smart programs whether to solve a real life problem, or create an innovative mobile application is a great skill that can improve your employability today in a wide range of industries.  This event by Kickstart is a great opportunity for the young Maldivians to demonstrate their programming skills.",
+          'img' => 'img/avatars/dhiraagu_ce.jpg'
+        ),
+        array(
+          'name' => 'Mohamed Shareef',
+          'designation' => 'CTO, NCIT',
+          'message' => "Hackathons are an integral component of NCIT's strategy to spark innovation, foster youth entrepreneurship and build our IT industry. We are delighted to provide strategic support to Kickstart Hackathon 2014 event and look foward to inclusive productive creative fun at this event.",
+          'img' => 'img/avatars/shareef_ncit.jpg'
+        ),
+        array(
+          'name' => 'Ali Rafeeq',
+          'designation' => 'EDITOR, HAVEERUONLINE',
+          'message' => "Coders and designers are key drivers of the media revolution that is redefining communication and social discourses. Be part of the transformation, and actively play your roles. Code, collaborate and contribute.",
+          'img' => 'img/avatars/alirafeeg.jpg'
+        ),
+        array(
+          'name' => 'Mohamed Nasheed',
+          'designation' => 'FORMER PRESIDENT, REP OF MALDIVES',
+          'message' => "In small island states such as the Maldives, information technology plays a crucial role. It enables communication, education, commerce and ensures for greats transparency in governance. 
+
+            Connectivity is the first step in expanding the Maldives' ITC sector, allowing for the creation of attractive career options for youth, and contributing to the national economy. I'm deeply encouraged by the Maldives first hackathon organised by Kickstart",
+          'img' => 'img/avatars/mohamednasheed.jpg'
+        ),
+      );
+  
+      shuffle($quotes);
+
+      foreach($quotes as $quote){ ?>
+      <div class="message column medium-push-1 medium-5 sweetwords">
+        <div class="avatar" style="background-image:url('<?php echo $quote['img']; ?>');background-size:cover"></div>
         <div class="details">
-          <div class="name">Steve Wozniak</div>
-          <div class="designation">CO-FOUNDER, APPLE</div>
+          <div class="name"><?php echo $quote['name']; ?></div>
+          <div class="designation"><?php echo $qoute['designation']; ?></div>
           <p>
-            Geeks have no better fun than at hackathons. Fun is better motivation than rewards like salaries and bonuses and grades. There is a lot more creativity at hackathons than in general technology work. You are trying to impress peers with how clever you are. I hope this event is successful and the start of something big.
+            <?php echo nl2br($quote['message']); ?>
           </p>
         </div>
       </div>
 
-      <div class="column large-6 sweetwords">
-        <div class="avatar" style="background-image:url('img/avatars/dhiraagu_ce.jpg');background-size:110%;background-position:-3px -3px"></div>
-        <div class="details">
-          <div class="name">Ismail Rasheed</div>
-          <div class="designation">CHIEF EXECUTIVE, DHIRAAGU</div>
-          <p>
-            The ability to write smart programs whether to solve a real life problem, or create an innovative mobile application is a great skill that can improve your employability today in a wide range of industries.  This event by Kickstart is a great opportunity for the young Maldivians to demonstrate their programming skills.
-          </p>
-        </div>
-      </div>
-
-
-      <div class="column large-6 sweetwords">
-        <div class="avatar" style="background-image:url('img/avatars/shareef_ncit.jpg');background-size:cover"></div>
-        <div class="details">
-          <div class="name">Mohamed Shareef</div>
-          <div class="designation">CTO, NCIT</div>
-          <p>
-            Hackathons are an integral component of NCIT's strategy to spark innovation, foster youth entrepreneurship and build our IT industry. We are delighted to provide strategic support to Kickstart Hackathon 2014 event and look foward to inclusive productive creative fun at this event.
-          </p>
-        </div>
-      </div>
-      
-      <div class="column large-6 sweetwords">
-        <div class="avatar" style="background-image:url('img/avatars/mohamednasheed.jpg');background-size:cover"></div>
-        <div class="details">
-          <div class="name">Mohamed Nasheed</div>
-          <div class="designation">FORMER PRESIDENT, REP OF MALDIVES</div>
-          <p>
-            In small island states such as in the Maldives, the utilization of information technology is vital in many ways. It enables communications and ensures transparent governing system. Connectivity is the first step towards expanding the ICT sector and making it an attractive career option for youth, increasing its contributions towards national economic advancement. I am deeply encouraged by the Maldives first hackathon organised by Kickstart and wish them all the best.
-          </p>
-        </div>
-      </div>
-
-      <div class="column large-6 sweetwords">
-        <div class="avatar" style="background-image:url('img/avatars/alirafeeg.jpg');background-size:cover"></div>
-        <div class="details">
-          <div class="name">Ali Rafeeg</div>
-          <div class="designation">EDITOR, HAVEERUONLINE</div>
-          <p>
-            "Coders and designers are key drivers of the media revolution that is redefining communication and social discourses. Be part of the transformation, and actively play your roles. Code, collaborate and contribute."
-          </p>
-        </div>
-      </div>
-
+      <?php } ?>
 
     </div>
   </div>
@@ -141,8 +136,14 @@
 
 <script src="js/jquery.min.js"></script>
 <script src="js/foundation.min.js"></script>
+<script src="js/masonry.min.js"></script>
 <script>
+$(document).ready(function(){
   $(document).foundation();
+
+  $('#quotelisting').masonry({
+    itemSelector: '.message'
+  });
 
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -150,6 +151,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 ga('create', 'UA-48994103-1', 'kickstart.mv');
 ga('send', 'pageview');
+});
 </script>
 
 </body>
