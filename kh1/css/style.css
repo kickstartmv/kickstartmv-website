@@ -146,7 +146,8 @@ ul.navigation li.active a, ul.navigation li a:hover {
 
 a.enroll-today-white {
   border-radius: 8px;
-  background: rgb(221, 29, 21);
+  /*background: rgb(221, 29, 21);*/
+  background:rgba(221, 29, 21, 0);
   font-family: Arial, sans-serif;
   font-size: 25px;
   color: #fff;
