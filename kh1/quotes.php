@@ -102,6 +102,12 @@
           'message' => "Ours is a nation full of smart and talented youth, where platforms like the Kickstart Hackathon are very much in need to unlock the unparalleled potentials and creativity of our youth to drive social, cultural, political, as well as, economic development of this nation. I applaud this initiative by a group of our youth and would like to see this platform developed into a national hackathon series in the future.",
           'img' => '/kh1/img/avatars/min_ameen.jpg'
         ),
+        array(
+          'name' => 'Mohamed Maleeh Jamal',
+          'designation' => 'MINISTER OF YOUTH AND SPORTS, REP OF MALDIVES',
+          'message' => "At a juncture when the nation needs innovative youth to stand up and be counted, it is highly encouraging to see a group of youth taking the initiative to organize such an event. The first ever Hackathon in the Maldives will provide a much needed opportunity for the many talented developers, designers and programmers to come together and hopefully will pave the way to developing our IT industry. I hope that this event will also lead to future Hackthons devoted to improving the government and resolving some of our social and economic problems. I'm a firm believer that the ripple effects of a combination of smart people, actions and ideas in a highly motivated environment can always prove invaluable. These collaborative experiences may very well turn out to produce the innovative approach to solving some of our country's most daunting issues. ",
+          'img' => '/kh1/img/avatars/maleehj.png'
+        ),
       );
   
       shuffle($quotes);
