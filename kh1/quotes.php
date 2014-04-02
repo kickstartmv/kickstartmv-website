@@ -21,11 +21,19 @@
   <meta name="ops-profile-twitter:description" content="A simple message from someone can help to inspire and motivate. Here are words from some who would like to reach out and encourage the developer community in Maldives."/>
   <meta name="twitter:image:src" content="http://kickstart.mv/kh1/img/cover_image.jpg"/>
 
+<<<<<<< HEAD
   <link rel="stylesheet" href="/kh1/css/foundation.min.css" />
   <link rel="stylesheet" href="/kh1/css/style.css?v=1.3"/>
   <script src="/kh1/js/modernizr.js"></script>
   <link rel="shortcut icon" href="/kh1/img/favicon.ico" type="image/x-icon">
   <link rel="icon" href="/kh1/img/favicon.ico" type="image/x-icon">
+=======
+  <link rel="stylesheet" href="css/foundation.min.css" />
+  <link rel="stylesheet" href="css/style.css?v=1.4"/>
+  <script src="js/modernizr.js"></script>
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+>>>>>>> c2b4f81e276c691d686d94f24f276f4ff03b327f
 </head>
 <body>
 
@@ -95,6 +103,12 @@
             Connectivity is the first step in expanding the Maldives' ITC sector, allowing for the creation of attractive career options for youth, and contributing to the national economy. I'm deeply encouraged by the Maldives first hackathon organised by Kickstart",
           'img' => 'img/avatars/mohamednasheed.jpg'
         ),
+        array(
+          'name' => 'Ameen Ibrahim',
+          'designation' => 'MINISTER OF TRANSPORT AND COMMUNICATION, REP OF MALDIVES',
+          'message' => "Ours is a nation full of smart and talented youth, where platforms like the Kickstart Hackathon are very much in need to unlock the unparalleled potentials and creativity of our youth to drive social, cultural, political, as well as, economic development of this nation. I applaud this initiative by a group of our youth and would like to see this platform developed into a national hackathon series in the future.",
+          'img' => 'img/avatars/min_ameen.jpg'
+        ),
       );
   
       shuffle($quotes);
@@ -104,7 +118,7 @@
         <div class="avatar" style="background-image:url('<?php echo $quote['img']; ?>');background-size:cover"></div>
         <div class="details">
           <div class="name"><?php echo $quote['name']; ?></div>
-          <div class="designation"><?php echo $qoute['designation']; ?></div>
+          <div class="designation"><?php echo $quote['designation']; ?></div>
           <p>
             <?php echo nl2br($quote['message']); ?>
           </p>
