@@ -35,7 +35,7 @@
     <div class="row">
 
       <div class="column large-2 logo">
-        <a href="/"><img src="img/logo-colored.png"/></a>
+        <a href="/"><img src="/kh1/img/logo-colored.png"/></a>
       </div>
 
       <div class="column large-10">
@@ -68,25 +68,25 @@
           'name' => 'Steve Wozniak',
           'designation' => 'CO-FOUNDER, APPLE',
           'message' => "Geeks have no better fun than at hackathons. Fun is better motivation than rewards like salaries and bonuses and grades. There is a lot more creativity at hackathons than in general technology work. You are trying to impress peers with how clever you are. I hope this event is successful and the start of something big",
-          'img' => 'img/avatars/woz.jpg'
+          'img' => '/kh1/img/avatars/woz.jpg'
         ),
         array(
           'name' => 'Ismail Rasheed',
           'designation' => 'CHIEF EXECUTIVE, DHIRAAGU',
           'message' => "The ability to write smart programs whether to solve a real life problem, or create an innovative mobile application is a great skill that can improve your employability today in a wide range of industries.  This event by Kickstart is a great opportunity for the young Maldivians to demonstrate their programming skills.",
-          'img' => 'img/avatars/dhiraagu_ce2.jpg'
+          'img' => '/kh1/img/avatars/dhiraagu_ce2.jpg'
         ),
         array(
           'name' => 'Mohamed Shareef',
           'designation' => 'CTO, NCIT',
           'message' => "Hackathons are an integral component of NCIT's strategy to spark innovation, foster youth entrepreneurship and build our IT industry. We are delighted to provide strategic support to Kickstart Hackathon 2014 event and look foward to inclusive productive creative fun at this event.",
-          'img' => 'img/avatars/shareef_ncit.jpg'
+          'img' => '/kh1/img/avatars/shareef_ncit.jpg'
         ),
         array(
           'name' => 'Ali Rafeeq',
           'designation' => 'EDITOR, HAVEERUONLINE',
           'message' => "Coders and designers are key drivers of the media revolution that is redefining communication and social discourses. Be part of the transformation, and actively play your roles. Code, collaborate and contribute.",
-          'img' => 'img/avatars/alirafeeg.jpg'
+          'img' => '/kh1/img/avatars/alirafeeg.jpg'
         ),
         array(
           'name' => 'Mohamed Nasheed',
@@ -94,13 +94,13 @@
           'message' => "In small island states such as the Maldives, information technology plays a crucial role. It enables communication, education, commerce and ensures for greats transparency in governance. 
 
             Connectivity is the first step in expanding the Maldives' ITC sector, allowing for the creation of attractive career options for youth, and contributing to the national economy. I'm deeply encouraged by the Maldives first hackathon organised by Kickstart",
-          'img' => 'img/avatars/mohamednasheed.jpg'
+          'img' => '/kh1/img/avatars/mohamednasheed.jpg'
         ),
         array(
           'name' => 'Ameen Ibrahim',
           'designation' => 'MINISTER OF TRANSPORT AND COMMUNICATION, REP OF MALDIVES',
           'message' => "Ours is a nation full of smart and talented youth, where platforms like the Kickstart Hackathon are very much in need to unlock the unparalleled potentials and creativity of our youth to drive social, cultural, political, as well as, economic development of this nation. I applaud this initiative by a group of our youth and would like to see this platform developed into a national hackathon series in the future.",
-          'img' => 'img/avatars/min_ameen.jpg'
+          'img' => '/kh1/img/avatars/min_ameen.jpg'
         ),
       );
   
