@@ -39,10 +39,10 @@
       </div>
 
       <div class="column large-10">
-        <!--#include virtual="./_topmenu.html" -->
+        <!--#include virtual="/kh1/_topmenu.html" -->
 
         <div class="social-links">
-          <!--#include virtual="./_sociallinks.html" -->
+          <!--#include virtual="/kh1/_sociallinks.html" -->
         </div>
       </div>
 
