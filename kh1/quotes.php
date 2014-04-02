@@ -105,7 +105,7 @@
         array(
           'name' => 'Mohamed Maleeh Jamal',
           'designation' => 'MINISTER OF YOUTH AND SPORTS, REP OF MALDIVES',
-          'message' => "At a juncture when the nation needs innovative youth to stand up and be counted, it is highly encouraging to see a group of youth taking the initiative to organize such an event. The first ever Hackathon in the Maldives will provide a much needed opportunity for the many talented developers, designers and programmers to come together and hopefully will pave the way to developing our IT industry. I hope that this event will also lead to future Hackthons devoted to improving the government and resolving some of our social and economic problems. I'm a firm believer that the ripple effects of a combination of smart people, actions and ideas in a highly motivated environment can always prove invaluable.",
+          'message' => "At a juncture when the nation needs innovative youth to stand up and be counted, it is highly encouraging to see a group of youth taking the initiative to organize such an event. The first ever Hackathon in the Maldives will provide a much needed opportunity for the many talented developers, designers and programmers to come together and hopefully will pave the way to developing our IT industry. <br/> I hope that this event will also lead to future Hackthons devoted to improving the government and resolving some of our social and economic problems. I'm a firm believer that the ripple effects of a combination of smart people, actions and ideas in a highly motivated environment can always prove invaluable.",
           'img' => '/kh1/img/avatars/maleehj.png'
         ),
       );
