@@ -21,19 +21,12 @@
   <meta name="ops-profile-twitter:description" content="A simple message from someone can help to inspire and motivate. Here are words from some who would like to reach out and encourage the developer community in Maldives."/>
   <meta name="twitter:image:src" content="http://kickstart.mv/kh1/img/cover_image.jpg"/>
 
-<<<<<<< HEAD
   <link rel="stylesheet" href="/kh1/css/foundation.min.css" />
   <link rel="stylesheet" href="/kh1/css/style.css?v=1.3"/>
   <script src="/kh1/js/modernizr.js"></script>
   <link rel="shortcut icon" href="/kh1/img/favicon.ico" type="image/x-icon">
   <link rel="icon" href="/kh1/img/favicon.ico" type="image/x-icon">
-=======
-  <link rel="stylesheet" href="css/foundation.min.css" />
-  <link rel="stylesheet" href="css/style.css?v=1.4"/>
-  <script src="js/modernizr.js"></script>
-  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
->>>>>>> c2b4f81e276c691d686d94f24f276f4ff03b327f
+
 </head>
 <body>
 
