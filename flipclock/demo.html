@@ -11,8 +11,10 @@
     <script src="src/flipclock/js/faces/minutecounter.js"></script>
   </head>
   <body style="text-align:center;">
+    <div class="container">
     <h1>Demo Time!</h1>
     <div class="clock" style="margin:2em;display:inline-block;width:inherit;"></div>
+    </div>
 
     <style>
     .flip-clock-divider.minutes{
@@ -42,6 +44,15 @@
             showSeconds: true,
           });
         }
+
+        var clockHeight = $('.container').outerHeight();
+        var windowHeight = $(window).height();
+
+        var difference = (windowHeight - clockHeight) / 2;
+
+        // console.log(windowHeight+' - ' +difference + " - "+clockHeight);
+
+        $('.container').css({'margin-top': difference});
       });
     </script>
     
