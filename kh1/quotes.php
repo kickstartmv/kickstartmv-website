@@ -8,7 +8,7 @@
   <meta name="keywords" content="kickstart, hackathon, maldives, male, programming, competition, software, development">
 
   <meta property="og:title" content="Messages for you - KickStart" />
-  <meta property="og:url" content="http://www.kickstart.mv/kh1/"/>
+  <meta property="og:url" content="http://www.kickstart.mv/kh1/quotes"/>
   <meta property="og:site_name" content="Kickstart"/>
   <meta property="og:type" content="website"/>
   <meta property="og:description" content="A simple message from someone can help to inspire and motivate. Here are words from some who would like to reach out and encourage the developer community in Maldives."/>
