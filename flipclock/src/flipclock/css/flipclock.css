@@ -147,7 +147,7 @@
   position: absolute;
   left: 0;
   z-index: 1;
-  width: 100%;
+  width: 97%;
   height: 200%;
   color: #444;
   /*text-shadow: 0 2px 5px #aaa;*/
@@ -178,7 +178,7 @@
   float: left;
   display: inline-block;
   position: relative;
-  width: 20px;
+  width: 15px;
   height: 190px; }
 
 .flip-clock-divider:first-child {
@@ -198,7 +198,8 @@
   position: absolute;
   top: -1.5em;
   right: -86px;
-  color: black;
+  display:none;
+  color: white;
   text-shadow: none; }
 
 .flip-clock-divider.minutes .flip-clock-label {
