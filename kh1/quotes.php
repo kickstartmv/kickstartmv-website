@@ -79,7 +79,7 @@
         ),
         array(
           'name' => 'Mohamed Shareef',
-          'designation' => 'CTO, NCIT',
+          'designation' => 'CIO, NCIT',
           'message' => "Hackathons are an integral component of NCIT's strategy to spark innovation, foster youth entrepreneurship and build our IT industry. We are delighted to provide strategic support to Kickstart Hackathon 2014 event and look foward to inclusive productive creative fun at this event.",
           'img' => '/kh1/img/avatars/shareef_ncit.jpg'
         ),
