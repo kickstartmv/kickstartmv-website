@@ -311,6 +311,21 @@ text-transform: uppercase;
 opacity: .51;
 }
 
+.talk-details-avatar {
+  display: inline-block;
+  background-size: contain;
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+}
+.talk-details-name {
+  display: inline-block;
+}
+.talk-details-name a {
+  color: #fff;
+  font-weight: bold;
+}
+
 .footer-btn {
   /*display:inline-block;*/
   /*margin-top:40px;*/
