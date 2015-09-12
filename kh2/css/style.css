@@ -107,7 +107,7 @@ h5 {
 }
 
 .slide-header {
-  background-image: url(../img/site_bg.jpg);
+  background-image: url(../img/splash.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -491,7 +491,7 @@ margin: 10px 0px 30px 0px;
 
 /*FOR MOBILES*/
 @media (max-width: 767px) {
-    
+
     h1 {
       margin:0px;
       font-size:40pt;
