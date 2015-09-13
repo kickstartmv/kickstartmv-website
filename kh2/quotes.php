@@ -80,7 +80,7 @@
         array(
           'name' => 'Mohamed Shareef',
           'designation' => 'CIO, NCIT',
-          'message' => "Hackathons are an integral component of NCIT's strategy to spark innovation, foster youth entrepreneurship and build our IT industry. We are delighted to provide strategic support to Kickstart Hackathon 2014 event and look foward to inclusive productive creative fun at this event.",
+          'message' => "Hackathons are an integral component of NCIT's strategy to spark innovation, foster youth entrepreneurship and build our IT industry. We are delighted to provide strategic support to Kickstart Hackathon event and look foward to inclusive productive creative fun at this event.",
           'img' => '/kh1/img/avatars/shareef_ncit.jpg'
         ),
         array(
@@ -140,7 +140,7 @@
         </div>
         <div class="columns medium-5">
           <div class="copyright text-center">
-          Made with ♥ in <b><a href="http://en.wikipedia.org/wiki/Maldives" target="_blank">Maldives</a></b>. &copy; 2014 kickstart.mv</div>
+          Made with ♥ in <b><a href="http://en.wikipedia.org/wiki/Maldives" target="_blank">Maldives</a></b>. &copy; 2015 kickstart.mv</div>
           </div>
         </div>
     </div>
