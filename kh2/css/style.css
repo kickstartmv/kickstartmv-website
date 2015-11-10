@@ -188,7 +188,11 @@ a.enroll-today-white.disabled {
   /*height:28px;*/
 }
 
-.sponsor-logo {
+.partner-group {
+  margin-bottom: 30px;
+}
+
+.partner-logo {
   display: inline-block;
   margin: 0px 15px 30px 15px;
 }
@@ -574,7 +578,7 @@ margin: 10px 0px 30px 0px;
       margin-top:40px;
     }
 
-    .sponsor-logo {
+    .partner-logo {
       margin: 20px 20px;
     }
 
