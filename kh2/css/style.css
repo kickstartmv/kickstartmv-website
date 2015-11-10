@@ -188,8 +188,14 @@ a.enroll-today-white.disabled {
   /*height:28px;*/
 }
 
+#partners h4 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
 .partner-group {
-  margin-bottom: 30px;
+  margin: 40px;
+  display: inline-block;
 }
 
 .partner-logo {
