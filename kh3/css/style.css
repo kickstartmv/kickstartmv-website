@@ -16,10 +16,14 @@ header .splash .button:hover { background: #f1b915; }
 header .splash .link { color: #fff; font-weight: bold; text-decoration: none; }
 header .splash .share_idea { display: inline-block; border-bottom: 2px solid white; padding-bottom: 3px; }
 header .splash .link:hover { text-decoration: none; }
-header ul.menu { margin: 0; padding: 0; margin-left: 20px; font-weight: normal; display: flex; list-style: none; font-size: 11pt; }
-header ul.menu li { margin: 0px 10px; }
-header ul.menu li a { transition: opacity .25s ease-in-out; -moz-transition: opacity .25s ease-in-out; -webkit-transition: opacity .25s ease-in-out; opacity: 0.5; color: #fff; text-decoration: none; }
-header ul.menu li a:hover { opacity: 1; }
+header .menu { margin: 0; padding: 0; margin-left: 20px; font-weight: normal; display: flex; list-style: none; font-size: 11pt; }
+header .menu li { margin: 0px 10px; }
+header .menu li a { transition: opacity .25s ease-in-out; -moz-transition: opacity .25s ease-in-out; -webkit-transition: opacity .25s ease-in-out; opacity: 0.5; color: #fff; text-decoration: none; }
+header .menu li a:hover { opacity: 1; }
+header .menu .dropdown { position: relative; }
+header .menu .dropdown-content { display: none; position: absolute; min-width: 160px; padding: 12px 16px; list-style: none; z-index: 1; margin: 0; padding: 0; padding-top: 10px; }
+header .menu .dropdown-content li { padding: 5px 0px; }
+header .menu .dropdown:hover .dropdown-content { display: block; }
 
 .container { width: 1000px; margin: 0 auto; }
 
