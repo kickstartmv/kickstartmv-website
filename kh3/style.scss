@@ -35,7 +35,7 @@ header {
 	}
 
 	.splash {
-		width:700px;
+		width:720px;
 		margin:0px auto;
 		text-align: center;
 		margin-top:24vh;
@@ -45,10 +45,15 @@ header {
 			font-weight: bold;
 			margin-top: 10vh;
 			margin-bottom: 0px;
+
+			.bold {
+				display: inline-block;
+				border-bottom:2px solid #fff;
+			}
 		}
 
 		h2 {
-			margin-top:0px;
+			margin-top:20px;
 			font-size:15pt;
 			font-weight: 300;
 		}

@@ -7,9 +7,10 @@ header .header-bar .logo img { margin-top: 5px; height: 30px; }
 header .social-links { display: flex; }
 header .social-links img { width: 20px; }
 header .social-links a { margin-right: 10px; }
-header .splash { width: 700px; margin: 0px auto; text-align: center; margin-top: 24vh; }
+header .splash { width: 720px; margin: 0px auto; text-align: center; margin-top: 24vh; }
 header .splash h1 { font-size: 50pt; font-weight: bold; margin-top: 10vh; margin-bottom: 0px; }
-header .splash h2 { margin-top: 0px; font-size: 15pt; font-weight: 300; }
+header .splash h1 .bold { display: inline-block; border-bottom: 2px solid #fff; }
+header .splash h2 { margin-top: 20px; font-size: 15pt; font-weight: 300; }
 header .splash .cta2 { margin-top: 10px; }
 header .splash .button { background: #F6CA49; color: black; display: inline-block; padding: 10px 20px; border-radius: 4px; text-align: center; font-size: 11pt; font-weight: bold; margin-top: 50px; text-decoration: none; transition: background .25s ease-in-out; -moz-transition: background .25s ease-in-out; -webkit-transition: background .25s ease-in-out; }
 header .splash .button:hover { background: #f1b915; }
